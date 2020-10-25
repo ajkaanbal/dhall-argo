@@ -1,4 +1,4 @@
-{ metadata : ./io.argoproj.workflow.v1alpha1.Metadata.dhall
+{ metadata : Optional ./io.argoproj.workflow.v1alpha1.Metadata.dhall
 , name : Text
 , activeDeadlineSeconds :
     Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall

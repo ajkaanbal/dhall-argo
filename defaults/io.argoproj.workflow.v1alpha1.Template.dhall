@@ -42,4 +42,5 @@
 , timeout = None Text
 , tolerations = None (List ./../types/io.k8s.api.core.v1.Toleration.dhall)
 , volumes = None (List ./../types/io.k8s.api.core.v1.Volume.dhall)
+, metadata = None  ./../types/io.argoproj.workflow.v1alpha1.Metadata.dhall
 }
