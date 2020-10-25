@@ -1,0 +1,1 @@
+{ compressionLevel = None Natural }
