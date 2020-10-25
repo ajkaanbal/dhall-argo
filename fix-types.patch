@@ -1,0 +1,31 @@
+diff --git a/defaults/io.argoproj.workflow.v1alpha1.Template.dhall b/defaults/io.argoproj.workflow.v1alpha1.Template.dhall
+index ce8d096..d8d9661 100644
+--- a/defaults/io.argoproj.workflow.v1alpha1.Template.dhall
++++ b/defaults/io.argoproj.workflow.v1alpha1.Template.dhall
+@@ -42,4 +42,5 @@
+ , timeout = None Text
+ , tolerations = None (List ./../types/io.k8s.api.core.v1.Toleration.dhall)
+ , volumes = None (List ./../types/io.k8s.api.core.v1.Volume.dhall)
++, metadata = None  ./../types/io.argoproj.workflow.v1alpha1.Metadata.dhall
+ }
+diff --git a/defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall b/defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall
+index 97ad575..ce30d1a 100644
+--- a/defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall
++++ b/defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall
+@@ -1 +1,5 @@
+-{ status = None ./../types/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall }
++{
++  status = None ./../types/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall,
++  kind = "Workflow",
++  apiVersion = "argoproj.io/v1alpha1"
++}
+diff --git a/types/io.argoproj.workflow.v1alpha1.Template.dhall b/types/io.argoproj.workflow.v1alpha1.Template.dhall
+index bd6310c..0bbdf25 100644
+--- a/types/io.argoproj.workflow.v1alpha1.Template.dhall
++++ b/types/io.argoproj.workflow.v1alpha1.Template.dhall
+@@ -1,4 +1,4 @@
+-{ metadata : ./io.argoproj.workflow.v1alpha1.Metadata.dhall
++{ metadata : Optional ./io.argoproj.workflow.v1alpha1.Metadata.dhall
+ , name : Text
+ , activeDeadlineSeconds :
+     Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall

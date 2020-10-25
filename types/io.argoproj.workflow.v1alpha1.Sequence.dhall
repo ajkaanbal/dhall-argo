@@ -1,5 +1,11 @@
-{ count : Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
-, end : Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
+{ count :
+    Optional
+      ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
+, end :
+    Optional
+      ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
 , format : Optional Text
-, start : Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
+, start :
+    Optional
+      ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
 }

@@ -1,3 +1,4 @@
 build:
 	openapi-to-dhall swagger.json
-	fd .dhall$ types | xargs -I{} dhall freeze --inplace {} --all
+	git apply fix-types.patch
+	fd .dhall types | xargs -t -P8 -I{} dhall freeze --inplace {} --all
