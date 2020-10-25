@@ -1,5 +1,11 @@
-{ count = None ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
-, end = None ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
+{ count =
+    None
+      ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
+, end =
+    None
+      ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
 , format = None Text
-, start = None ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
+, start =
+    None
+      ./../types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
 }
