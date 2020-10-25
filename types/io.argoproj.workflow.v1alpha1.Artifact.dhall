@@ -14,7 +14,6 @@
 , oss : Optional ./io.argoproj.workflow.v1alpha1.OSSArtifact.dhall
 , path : Optional Text
 , raw : Optional ./io.argoproj.workflow.v1alpha1.RawArtifact.dhall
-, recurseMode : Optional Bool
 , s3 : Optional ./io.argoproj.workflow.v1alpha1.S3Artifact.dhall
 , subPath : Optional Text
 }

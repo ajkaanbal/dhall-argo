@@ -24,6 +24,7 @@
 , priority : Optional Natural
 , priorityClassName : Optional Text
 , resource : Optional ./io.argoproj.workflow.v1alpha1.ResourceTemplate.dhall
+, resubmitPendingPods : Optional Bool
 , retryStrategy : Optional ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
 , schedulerName : Optional Text
 , script : Optional ./io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall

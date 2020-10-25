@@ -1,4 +1,1 @@
-{ cache : ./io.argoproj.workflow.v1alpha1.Cache.dhall
-, key : Text
-, maxAge : Text
-}
+{ cache : ./io.argoproj.workflow.v1alpha1.Cache.dhall, key : Text }

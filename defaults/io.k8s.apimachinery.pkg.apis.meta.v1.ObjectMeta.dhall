@@ -8,6 +8,8 @@
 , finalizers = None (List Text)
 , generateName = None Text
 , generation = None Natural
+, initializers =
+    None ./../types/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall
 , labels = None (List { mapKey : Text, mapValue : Text })
 , managedFields =
     None

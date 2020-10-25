@@ -23,8 +23,6 @@
 , podPriorityClassName = None Text
 , podSpecPatch = None Text
 , priority = None Natural
-, retryStrategy =
-    None ./../types/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
 , schedulerName = None Text
 , securityContext = None ./../types/io.k8s.api.core.v1.PodSecurityContext.dhall
 , serviceAccountName = None Text
@@ -37,8 +35,6 @@
 , tolerations = None (List ./../types/io.k8s.api.core.v1.Toleration.dhall)
 , ttlSecondsAfterFinished = None Natural
 , ttlStrategy = None ./../types/io.argoproj.workflow.v1alpha1.TTLStrategy.dhall
-, volumeClaimGC =
-    None ./../types/io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall
 , volumeClaimTemplates =
     None (List ./../types/io.k8s.api.core.v1.PersistentVolumeClaim.dhall)
 , volumes = None (List ./../types/io.k8s.api.core.v1.Volume.dhall)

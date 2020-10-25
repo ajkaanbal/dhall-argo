@@ -1,4 +1,1 @@
-{ gmsaCredentialSpec = None Text
-, gmsaCredentialSpecName = None Text
-, runAsUserName = None Text
-}
+{ gmsaCredentialSpec = None Text, gmsaCredentialSpecName = None Text }

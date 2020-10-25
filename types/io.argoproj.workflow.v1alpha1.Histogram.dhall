@@ -1,1 +1,1 @@
-{ buckets : List Text, value : Text }
+{ buckets : List Double, value : Text }

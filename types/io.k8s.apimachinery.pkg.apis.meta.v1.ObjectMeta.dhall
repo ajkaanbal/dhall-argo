@@ -6,6 +6,8 @@
 , finalizers : Optional (List Text)
 , generateName : Optional Text
 , generation : Optional Natural
+, initializers :
+    Optional ./io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall
 , labels : Optional (List { mapKey : Text, mapValue : Text })
 , managedFields :
     Optional

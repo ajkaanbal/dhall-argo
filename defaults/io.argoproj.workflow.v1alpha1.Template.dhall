@@ -23,6 +23,7 @@
 , priorityClassName = None Text
 , resource =
     None ./../types/io.argoproj.workflow.v1alpha1.ResourceTemplate.dhall
+, resubmitPendingPods = None Bool
 , retryStrategy =
     None ./../types/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
 , schedulerName = None Text

@@ -10,7 +10,6 @@
 , readinessProbe = None ./../types/io.k8s.api.core.v1.Probe.dhall
 , resources = None ./../types/io.k8s.api.core.v1.ResourceRequirements.dhall
 , securityContext = None ./../types/io.k8s.api.core.v1.SecurityContext.dhall
-, startupProbe = None ./../types/io.k8s.api.core.v1.Probe.dhall
 , stdin = None Bool
 , stdinOnce = None Bool
 , terminationMessagePath = None Text

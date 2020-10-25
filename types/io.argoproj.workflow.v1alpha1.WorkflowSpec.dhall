@@ -23,7 +23,6 @@
 , podPriorityClassName : Optional Text
 , podSpecPatch : Optional Text
 , priority : Optional Natural
-, retryStrategy : Optional ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall
 , schedulerName : Optional Text
 , securityContext : Optional ./io.k8s.api.core.v1.PodSecurityContext.dhall
 , serviceAccountName : Optional Text
@@ -35,7 +34,6 @@
 , tolerations : Optional (List ./io.k8s.api.core.v1.Toleration.dhall)
 , ttlSecondsAfterFinished : Optional Natural
 , ttlStrategy : Optional ./io.argoproj.workflow.v1alpha1.TTLStrategy.dhall
-, volumeClaimGC : Optional ./io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall
 , volumeClaimTemplates :
     Optional (List ./io.k8s.api.core.v1.PersistentVolumeClaim.dhall)
 , volumes : Optional (List ./io.k8s.api.core.v1.Volume.dhall)

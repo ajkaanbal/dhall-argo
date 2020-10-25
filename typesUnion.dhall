@@ -50,7 +50,6 @@
 | GitArtifact : ./types/io.argoproj.workflow.v1alpha1.GitArtifact.dhall
 | HDFSArtifact : ./types/io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall
 | HTTPArtifact : ./types/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall
-| Header : ./types/io.argoproj.workflow.v1alpha1.Header.dhall
 | Histogram : ./types/io.argoproj.workflow.v1alpha1.Histogram.dhall
 | InfoResponse : ./types/io.argoproj.workflow.v1alpha1.InfoResponse.dhall
 | Inputs : ./types/io.argoproj.workflow.v1alpha1.Inputs.dhall
@@ -106,7 +105,6 @@
 | UserContainer : ./types/io.argoproj.workflow.v1alpha1.UserContainer.dhall
 | ValueFrom : ./types/io.argoproj.workflow.v1alpha1.ValueFrom.dhall
 | Version : ./types/io.argoproj.workflow.v1alpha1.Version.dhall
-| VolumeClaimGC : ./types/io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall
 | Workflow : ./types/io.argoproj.workflow.v1alpha1.Workflow.dhall
 | WorkflowCreateRequest :
     ./types/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall
@@ -156,7 +154,6 @@
     ./types/io.argoproj.workflow.v1alpha1.WorkflowTerminateRequest.dhall
 | WorkflowWatchEvent :
     ./types/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall
-| ZipStrategy : ./types/io.argoproj.workflow.v1alpha1.ZipStrategy.dhall
 | AWSElasticBlockStoreVolumeSource :
     ./types/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall
 | Affinity : ./types/io.k8s.api.core.v1.Affinity.dhall
@@ -264,7 +261,9 @@
 | Quantity : ./types/io.k8s.apimachinery.pkg.api.resource.Quantity.dhall
 | CreateOptions :
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall
-| FieldsV1 : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.FieldsV1.dhall
+| Fields : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Fields.dhall
+| Initializer : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer.dhall
+| Initializers : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall
 | LabelSelector :
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.dhall
 | LabelSelectorRequirement :
@@ -276,6 +275,7 @@
 | ObjectMeta : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall
 | OwnerReference :
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference.dhall
+| Status : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Status.dhall
 | StatusCause : ./types/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause.dhall
 | StatusDetails :
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails.dhall

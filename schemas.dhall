@@ -44,7 +44,6 @@
 , GitArtifact = ./schemas/io.argoproj.workflow.v1alpha1.GitArtifact.dhall
 , HDFSArtifact = ./schemas/io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall
 , HTTPArtifact = ./schemas/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall
-, Header = ./schemas/io.argoproj.workflow.v1alpha1.Header.dhall
 , Histogram = ./schemas/io.argoproj.workflow.v1alpha1.Histogram.dhall
 , InfoResponse = ./schemas/io.argoproj.workflow.v1alpha1.InfoResponse.dhall
 , Inputs = ./schemas/io.argoproj.workflow.v1alpha1.Inputs.dhall
@@ -99,7 +98,6 @@
 , UserContainer = ./schemas/io.argoproj.workflow.v1alpha1.UserContainer.dhall
 , ValueFrom = ./schemas/io.argoproj.workflow.v1alpha1.ValueFrom.dhall
 , Version = ./schemas/io.argoproj.workflow.v1alpha1.Version.dhall
-, VolumeClaimGC = ./schemas/io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall
 , Workflow = ./schemas/io.argoproj.workflow.v1alpha1.Workflow.dhall
 , WorkflowCreateRequest =
     ./schemas/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall
@@ -261,6 +259,9 @@
     ./schemas/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall
 , CreateOptions =
     ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall
+, Initializer = ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer.dhall
+, Initializers =
+    ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall
 , LabelSelector =
     ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.dhall
 , LabelSelectorRequirement =
@@ -271,6 +272,7 @@
 , ObjectMeta = ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall
 , OwnerReference =
     ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference.dhall
+, Status = ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.Status.dhall
 , StatusCause = ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause.dhall
 , StatusDetails =
     ./schemas/io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails.dhall

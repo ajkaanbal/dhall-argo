@@ -13,7 +13,6 @@
 , oss = None ./../types/io.argoproj.workflow.v1alpha1.OSSArtifact.dhall
 , path = None Text
 , raw = None ./../types/io.argoproj.workflow.v1alpha1.RawArtifact.dhall
-, recurseMode = None Bool
 , s3 = None ./../types/io.argoproj.workflow.v1alpha1.S3Artifact.dhall
 , subPath = None Text
 }

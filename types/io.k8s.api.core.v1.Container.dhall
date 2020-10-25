@@ -11,7 +11,6 @@
 , readinessProbe : Optional ./io.k8s.api.core.v1.Probe.dhall
 , resources : Optional ./io.k8s.api.core.v1.ResourceRequirements.dhall
 , securityContext : Optional ./io.k8s.api.core.v1.SecurityContext.dhall
-, startupProbe : Optional ./io.k8s.api.core.v1.Probe.dhall
 , stdin : Optional Bool
 , stdinOnce : Optional Bool
 , terminationMessagePath : Optional Text
