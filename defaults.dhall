@@ -183,7 +183,7 @@
 , WorkflowSuspendRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowSuspendRequest.dhall sha256:6bafa389265dc30f434cb983275140acb01a4e5406ff88837de788aa2bbc38cf
 , WorkflowTemplate =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:a9f0d7ae0c41431a08b4aea256c45a6d7acde8a574c82bb5f9f0663705a085e4
 , WorkflowTemplateCreateRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateCreateRequest.dhall sha256:92f27745b4ef7cd4404b39e13afdb4974c040a5d9cf402330958de2dbb999a7b
 , WorkflowTemplateLintRequest =

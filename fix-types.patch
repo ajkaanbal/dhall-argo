@@ -29,3 +29,10 @@ index bd6310c..0bbdf25 100644
  , name : Text
  , activeDeadlineSeconds :
      Optional ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall
+diff --git a/defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall b/defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
+index 339130f..64da280 100644
+--- a/defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
++++ b/defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall
+@@ -1 +1 @@
+-{=}
++{ kind = "WorkflowTemplate", apiVersion = "argoproj.io/v1alpha1" }
