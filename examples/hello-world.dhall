@@ -1,7 +1,7 @@
 let Argo =
       ../package.dhall sha256:a6676ff4c914c26013473e9b275e69d61f0fcf445bd75017879865d824f3f5fa
 
-let templates = ./templates.dhall
+let templates = ./argo-templates.dhall
 
 let entrypoint = "whalesay"
 
