@@ -1,6 +1,6 @@
 { arguments =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+      ./../types/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , continueOn =
     None
       ./../types/io.argoproj.workflow.v1alpha1.ContinueOn.dhall sha256:b8bc49f33fc12accd4384d5415f73c6736989069589f506a87654b1395837813
@@ -19,5 +19,5 @@
 , withParam = None Text
 , withSequence =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:3ae52ba1549a5bcb3d7160b7a3f5e62b1a257ddaeedca44456beab0da82fb32d
+      ./../types/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:e7cfed05c1b1fe58ce672e268aef05f8fb7e75b9ae3da9e21e2a691a76b5f8ae
 }

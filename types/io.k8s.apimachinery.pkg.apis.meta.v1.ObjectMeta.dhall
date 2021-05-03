@@ -10,14 +10,11 @@
 , finalizers : Optional (List Text)
 , generateName : Optional Text
 , generation : Optional Natural
-, initializers :
-    Optional
-      ./io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall sha256:34a1f61ce570145f7be6820d345c406d21bc0164b4ad20c57b4fa044cf193d80
 , labels : Optional (List { mapKey : Text, mapValue : Text })
 , managedFields :
     Optional
       ( List
-          ./io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:3f9b360fc8c3f2f6434d51fc7d8fe9628f0944e1a50714973588fbef8ccec59c
+          ./io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:fa7bb7fd50692df5fa4f6aa689b2fdf4b9cbbbd6dcdd44cd59860fdf729e6ad5
       )
 , name : Optional Text
 , namespace : Optional Text

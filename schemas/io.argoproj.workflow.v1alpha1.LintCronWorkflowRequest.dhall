@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:ef7b0c4a4a3b2f9eebadeda078158dc92d2adfb2f3ae8a5a4d80e548d11140b4
+    ./../types/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:e622b9117e5fc78caade24369ca894b53bd01db465da832ba589218a5a24004f
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:25d99b7ec2c5f03955c7da36dfebb6137d82f2ebea97f93ca8817c0a1f1a81ed
+    ./../defaults/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:69b44a42fd5ff44c1c400cc0618c4e4b20457b9e21bca817c06e658a65156ed2
 }

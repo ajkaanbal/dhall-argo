@@ -3,35 +3,35 @@
 , StreamError =
     ./types/grpc.gateway.runtime.StreamError.dhall sha256:4a5fba5e8bcf242ad3bd6f969fd8e76ff5cedcd386c8356680615c6e78045fc0
 , ArchiveStrategy =
-    ./types/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:9c154fdb6b4274f14867459fd0cbdcda4acf634b597101318974e305c415faa1
+    ./types/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:5f7451bc9978197cc5424df41e53edb9a23dc839143f37bf2dfade27f888838a
 , ArchivedWorkflowDeletedResponse =
     ./types/io.argoproj.workflow.v1alpha1.ArchivedWorkflowDeletedResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , Arguments =
-    ./types/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+    ./types/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , Artifact =
-    ./types/io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:a7807e69162c2ff9b230eef744f9f0fe8b558bb0f8b53867627fe3b0e66d4bcd
+    ./types/io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:ae4e812e08dbad22b8d5ef6c5edb6c39bf55a072adf2c59dfb90a3c5b4ec5c34
 , ArtifactLocation =
-    ./types/io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:c9609f214aa7805c5aa6672c239adb7e5ddb060e3b8af87894198c3182796054
+    ./types/io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:737efe3e5684bfa906538c4a766b1e5b47eb98d4f57fd9e2a6aa54ef63b2530d
 , ArtifactRepositoryRef =
     ./types/io.argoproj.workflow.v1alpha1.ArtifactRepositoryRef.dhall sha256:4f0cc648b24c9231e6073099614c0c015e211033ff6df852b5d936fb9db1e68a
 , ArtifactoryArtifact =
     ./types/io.argoproj.workflow.v1alpha1.ArtifactoryArtifact.dhall sha256:8cf3a52f2351a7216e66c220adb53eb7d0e63939e8ec88fe34e5c7eb10365f71
 , Backoff =
-    ./types/io.argoproj.workflow.v1alpha1.Backoff.dhall sha256:fdaf30c0b06bbeaec20363d74c786880e14085eb73a95ee85b7542e814c5c10c
+    ./types/io.argoproj.workflow.v1alpha1.Backoff.dhall sha256:9cf7c1252e4a0e09a54e55a86c53a05ec8075edc2682c15e0d08acab8006924f
 , Cache =
     ./types/io.argoproj.workflow.v1alpha1.Cache.dhall sha256:9f43bb77b15323afaba9bf78bd3de690c2928983017f80311948587430a64d74
 , ClusterWorkflowTemplate =
-    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplate.dhall sha256:a0ca32ba796ea63bc9f7142f7c5092a20fe85f3dbfb7e376c4ab1b2d2e809e8f
+    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplate.dhall sha256:307aacd93a74c0f8be6f19c8ca5410baeacda3fe3d82849d74036d26420d934e
 , ClusterWorkflowTemplateCreateRequest =
-    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateCreateRequest.dhall sha256:d34b05e1c3d7dc115173c9cc6b3b9a3361f9c8541cce9b987b63221f6a776bfc
+    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateCreateRequest.dhall sha256:f8661261bcb51273e5638c8ea8c4f1d14b59f07a0c1433aee3f049b72705244e
 , ClusterWorkflowTemplateDeleteResponse =
     ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateDeleteResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , ClusterWorkflowTemplateLintRequest =
-    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateLintRequest.dhall sha256:d34b05e1c3d7dc115173c9cc6b3b9a3361f9c8541cce9b987b63221f6a776bfc
+    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateLintRequest.dhall sha256:f8661261bcb51273e5638c8ea8c4f1d14b59f07a0c1433aee3f049b72705244e
 , ClusterWorkflowTemplateList =
-    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateList.dhall sha256:8b051da6be752c3eead496e79a7a5122cc93588957078315f5803289414fbd81
+    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateList.dhall sha256:c261e758ee4e1630ff306b07fb077df4085f23bf99b2a50d1f63f88827d3b764
 , ClusterWorkflowTemplateUpdateRequest =
-    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateUpdateRequest.dhall sha256:4b94d3002d49bc8fdd881096101671c2533441ad58db2f1a0b64e74c233fd352
+    ./types/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateUpdateRequest.dhall sha256:4ecf17299178d45c630c3cd9e3ae36d0f9d1f823ae07c459be8fb0f59ce9bd96
 , Condition =
     ./types/io.argoproj.workflow.v1alpha1.Condition.dhall sha256:e3933ea164f53fa27da9cd1ba9018008e69b0b5a5790e09780d10109080319fd
 , ContinueOn =
@@ -39,21 +39,25 @@
 , Counter =
     ./types/io.argoproj.workflow.v1alpha1.Counter.dhall sha256:24f3d3a551ba0d8e5dd71b53f8b04108121f5d84954fab7e6c53523a053b4115
 , CreateCronWorkflowRequest =
-    ./types/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall sha256:98f6a48f9d1009486edc0971ae9ababc846dab6bdcf93b709d94ec5cbfbbd397
+    ./types/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall sha256:4bae50877ce88f94842d3d98b389df3f76860041ac791da1472d213063c80b0c
 , CronWorkflow =
-    ./types/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:23bf8e9aba52a7959f1da99cf2bacaa42382949ab283daa176272318234fd217
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:6727e42265e9a5c716e7a6867e0ba1971ca554b1cfde4899c78715446235f46a
 , CronWorkflowDeletedResponse =
     ./types/io.argoproj.workflow.v1alpha1.CronWorkflowDeletedResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , CronWorkflowList =
-    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowList.dhall sha256:bb9182d82e9fbe78127371f3dbd1081df2bf2dcb45c532d5dc70a1fbfa7a329f
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowList.dhall sha256:b648d17ac867dfd055384e1df386e60c128ebacf8f979fb068ce14596b1ea781
+, CronWorkflowResumeRequest =
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowResumeRequest.dhall sha256:aac2bf127e8931850f04d76f4a3a0eb7deec3b4af46f018d4cd6560167e630df
 , CronWorkflowSpec =
-    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:0857050485eae97090d1847ae63738b25c2e3206f30abf8f54daaa317cb03fe9
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:d96b922cfd43686124f6f355724e679f510c62030f1eb6ddba32608b9cdb6449
 , CronWorkflowStatus =
-    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowStatus.dhall sha256:5ec2700c81c63998ee277de58f7821c19692ad18793353b814a7ec58cf8166aa
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowStatus.dhall sha256:ccb0fa41061f1164012a747f16e489528c478405c7a4e799738044e3fbca0631
+, CronWorkflowSuspendRequest =
+    ./types/io.argoproj.workflow.v1alpha1.CronWorkflowSuspendRequest.dhall sha256:aac2bf127e8931850f04d76f4a3a0eb7deec3b4af46f018d4cd6560167e630df
 , DAGTask =
-    ./types/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:60461725c55e57465a1fc920cadb1c92691c9623a6871e368aefc94aca4acb6b
+    ./types/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:525926c771461c24cd92048b993e51509ee859d993e300500755a9455fb7e9a6
 , DAGTemplate =
-    ./types/io.argoproj.workflow.v1alpha1.DAGTemplate.dhall sha256:518f310c91cf87a41e483513e282376b3bcac74ea732c359d1afe923b08ba80e
+    ./types/io.argoproj.workflow.v1alpha1.DAGTemplate.dhall sha256:8e8b865bea0a7bd3b005412044b4ab1c53989f28c50d6e57981de2b65380c358
 , EventResponse =
     ./types/io.argoproj.workflow.v1alpha1.EventResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , ExecutorConfig =
@@ -63,31 +67,33 @@
 , Gauge =
     ./types/io.argoproj.workflow.v1alpha1.Gauge.dhall sha256:0e5bc5a867c0c4940da05ab23dad7fcacba65b2f3e055ec8a5c478c9ca4b899c
 , GetUserInfoResponse =
-    ./types/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:c804c8dc674f6bff33a9f8e81a34f460f14987d8b6c811b0f428818d4972f79a
+    ./types/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:dfd979f10a1acd1ed56142581bd27be7da190df28c34b46f20623d08015d5c45
 , GitArtifact =
     ./types/io.argoproj.workflow.v1alpha1.GitArtifact.dhall sha256:42771e7d6a9084a5bd90c62ef1fbad042bb83f59f96178b374b4c0313e5008b3
 , HDFSArtifact =
     ./types/io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall sha256:0fc36b4183103803f2994bfb0103ffae98394027c8e0f6a345ce268854ada0d0
 , HTTPArtifact =
-    ./types/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:3a9bace0a27989cfca6ba5c636da776fbdf3d27a57eb7ce6faa4a13fd84169d0
+    ./types/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:673e077e05eba80f0e2e06b4c7a976d76b57d881a7c5c33a52080c5908a40a92
+, Header =
+    ./types/io.argoproj.workflow.v1alpha1.Header.dhall sha256:b8c3c0c4ceb36ba4e6674df5de20ad1d97e120b93b9ce9914a41d0036770dcc4
 , Histogram =
     ./types/io.argoproj.workflow.v1alpha1.Histogram.dhall sha256:da8472477a843707d699182bce517a4d02cbd682956190defb039e8bc6d16a14
 , InfoResponse =
     ./types/io.argoproj.workflow.v1alpha1.InfoResponse.dhall sha256:7b9b82ac4f56edc57c4ca8fbfbc9203436f364d885f5d736b18b81276babb6bd
 , Inputs =
-    ./types/io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+    ./types/io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , Item =
     ./types/io.argoproj.workflow.v1alpha1.Item.dhall sha256:0912602a19e01dcff30f351958d2d9b69519c9be61b57b1b32a2a569bf8bf5f9
 , Link =
     ./types/io.argoproj.workflow.v1alpha1.Link.dhall sha256:ebfec810bf2122f1956f00e3ce86d8f1cb04111a15fd25dddced8f6535a49ed8
 , LintCronWorkflowRequest =
-    ./types/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:ef7b0c4a4a3b2f9eebadeda078158dc92d2adfb2f3ae8a5a4d80e548d11140b4
+    ./types/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:e622b9117e5fc78caade24369ca894b53bd01db465da832ba589218a5a24004f
 , LogEntry =
     ./types/io.argoproj.workflow.v1alpha1.LogEntry.dhall sha256:1962e036c0e96732ab05a5b86ae4fdc536935a0419adb85e7b60cbce723d550a
 , MemoizationStatus =
     ./types/io.argoproj.workflow.v1alpha1.MemoizationStatus.dhall sha256:c55fceccece76654504fca676bc1b231a338f0004cbdebd9de7ae38aeb7d760d
 , Memoize =
-    ./types/io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:f38505832b8be3c5aea8fb17788e8116a0d1a5014302a5521a92d2722cd56e60
+    ./types/io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:92f9bd234c8406b58452c0ef99d6586729c3004f6b1a6ab3c387e9c1e55ead27
 , Metadata =
     ./types/io.argoproj.workflow.v1alpha1.Metadata.dhall sha256:f23d88affc672057700db0ed7c1181a6f1aba982d02b8fd42468eafd7351d611
 , MetricLabel =
@@ -101,7 +107,7 @@
 , MutexStatus =
     ./types/io.argoproj.workflow.v1alpha1.MutexStatus.dhall sha256:310776d965e158d8845d0d1543998d33e00aba139ab8a759fb4fb16d7f15dcc6
 , NodeStatus =
-    ./types/io.argoproj.workflow.v1alpha1.NodeStatus.dhall sha256:6a02d97b8a4f898f3d01f35bc28438f79bcba7f7be63095365a769fe6d2f6192
+    ./types/io.argoproj.workflow.v1alpha1.NodeStatus.dhall sha256:e3c6f336df09adee53505c7dbf025cb83401022057dc0c0e64b43fd82dea5c45
 , NodeSynchronizationStatus =
     ./types/io.argoproj.workflow.v1alpha1.NodeSynchronizationStatus.dhall sha256:827484323872051abf9bf30049f0ee543865b419daa0c01a74314975a2c4a05e
 , NoneStrategy =
@@ -109,11 +115,11 @@
 , OSSArtifact =
     ./types/io.argoproj.workflow.v1alpha1.OSSArtifact.dhall sha256:c1488b81868e4e18ab9ffbbb3c9d424ca6e3c6f3b984d93a1d7ebfc72cf41d56
 , Outputs =
-    ./types/io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:ea2ff8d52cf773c2acadfecc3f41e35927782874299e0834baa8797da5b72303
+    ./types/io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:1a44476490d4a15ae350a67c9e2b2a8dd391c38d8e4d44ff64663aec7e13b2da
 , ParallelSteps =
-    ./types/io.argoproj.workflow.v1alpha1.ParallelSteps.dhall sha256:2da0323fa5c2bc620e848db9f9a4e7e3f55b0e940e73ff93575a0c26e723e7a8
+    ./types/io.argoproj.workflow.v1alpha1.ParallelSteps.dhall sha256:e71b146a39c01b0295dfcd5ced2798c97b385a8d652398d6408f13cbe436173c
 , Parameter =
-    ./types/io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:30c98d34a1719c749454f652f5d1c8e4ca4e6f33db2bcd86ca9b0237a1c80268
+    ./types/io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:ae9b99117026cd6987c4436d2821e288d87f7287f94844ca75725ec35184d9c3
 , PodGC =
     ./types/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:1e05604931635e666adcb37b618bc56647418bd55ed3120180fa441e3b5f3981
 , Prometheus =
@@ -123,11 +129,11 @@
 , ResourceTemplate =
     ./types/io.argoproj.workflow.v1alpha1.ResourceTemplate.dhall sha256:87d27a224772654690215c2336e7f374898fec04db17034d047261ef63e8a2f0
 , RetryStrategy =
-    ./types/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:45ae34f2b2a13606addd7fd7fb963a0ec11f934eb8789d4337b1e44255b3fa67
+    ./types/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:4b2c57ab289a240492880839815c6fe3998040ed0705016715445aa5ec863568
 , S3Artifact =
     ./types/io.argoproj.workflow.v1alpha1.S3Artifact.dhall sha256:a22f92adb83050817482740e6402f1f94bde4ed9ab1503fa60a9a2f195264422
 , ScriptTemplate =
-    ./types/io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:f35b3f8ef10a584be615aee8d66823d0ad687d1a8beb1deffbb7f95e816d0118
+    ./types/io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:5cd9405f5ce9a156006dedf6ad904766ab7b75f23542e7f8bc552d9631ddb10f
 , SemaphoreHolding =
     ./types/io.argoproj.workflow.v1alpha1.SemaphoreHolding.dhall sha256:40b8ff76ae06d6489caa7f5a8c28900d8097521f4387459c5f52e7f060bf567f
 , SemaphoreRef =
@@ -135,9 +141,9 @@
 , SemaphoreStatus =
     ./types/io.argoproj.workflow.v1alpha1.SemaphoreStatus.dhall sha256:7b11fe4dd87f0d66a4dd7cd379db61f5996fc7136de9bf48db1d7d361545016f
 , Sequence =
-    ./types/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:3ae52ba1549a5bcb3d7160b7a3f5e62b1a257ddaeedca44456beab0da82fb32d
+    ./types/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:e7cfed05c1b1fe58ce672e268aef05f8fb7e75b9ae3da9e21e2a691a76b5f8ae
 , Submit =
-    ./types/io.argoproj.workflow.v1alpha1.Submit.dhall sha256:fb4fd243d84b7c178fa3ebddec2d2078555a4eb79a24faf078a78c3cb68491cf
+    ./types/io.argoproj.workflow.v1alpha1.Submit.dhall sha256:ee01ed0c977f875c76da02689c799266fc58d831396782ea32adae003758aad6
 , SubmitOpts =
     ./types/io.argoproj.workflow.v1alpha1.SubmitOpts.dhall sha256:5ec47f7fce7507b4283837493f1d5db1b431569765bb57e07b11d852bf9fd04d
 , SuppliedValueFrom =
@@ -153,31 +159,33 @@
 , TarStrategy =
     ./types/io.argoproj.workflow.v1alpha1.TarStrategy.dhall sha256:455db85f1506da5148a81a1c9d8d5463a25aae66baa4ca174f702e10705ffa85
 , Template =
-    ./types/io.argoproj.workflow.v1alpha1.Template.dhall sha256:ab0ac2aedbea9636d8810dee5410b1b0209c689cafbf40136359599f9132b362
+    ./types/io.argoproj.workflow.v1alpha1.Template.dhall sha256:273e5f67d02e1ddc445dec499eb6c9e31ecc4edbe2dbeae19be3ca229a60c6be
 , TemplateRef =
     ./types/io.argoproj.workflow.v1alpha1.TemplateRef.dhall sha256:7e9968539a9c7cf27a0ecb46588d8a02fb606f7ad65fb6d413f2f1044c3701c5
 , UpdateCronWorkflowRequest =
-    ./types/io.argoproj.workflow.v1alpha1.UpdateCronWorkflowRequest.dhall sha256:8ae108db7ba60796d1639e48e97a5edf572eafee9042d556437ad42fba1a981f
+    ./types/io.argoproj.workflow.v1alpha1.UpdateCronWorkflowRequest.dhall sha256:938c184e34082c248a9ab9b821e9ec0721b63d460d3ed6640969979f88f45a6b
 , UserContainer =
-    ./types/io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:ebac2919e765d0fb8c2071ecc4bd79dc3a0ba7eaec48bbf2ce9298609821294c
+    ./types/io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:b10761b8c053f81c59de330b086ec332ffd1f47dca1370c87859c0c55cec9f93
 , ValueFrom =
     ./types/io.argoproj.workflow.v1alpha1.ValueFrom.dhall sha256:904094de4181c6bd24386ba13d398a2390e789f83a29b7b7b5c4bab3c198d882
 , Version =
     ./types/io.argoproj.workflow.v1alpha1.Version.dhall sha256:cbceaeac330516aefeab686982b24b4d7e3bc1994e42eb00f212b7dbf5ac6d1c
+, VolumeClaimGC =
+    ./types/io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall sha256:1e05604931635e666adcb37b618bc56647418bd55ed3120180fa441e3b5f3981
 , Workflow =
-    ./types/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:48de566d8e6743d2b8a7f67d7b4b657a79546f851b30cb23b04950cd2dc36e77
+    ./types/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:e7227601f46ffacd16ec13b34747e58063a3b69a357e5a36e5d99dd531e3c485
 , WorkflowCreateRequest =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall sha256:f16006402d4f9091af10f5b1885289b3cf72dfec3420754c917b4f656ddcf403
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall sha256:ed2c7823f86eac9963d353ced9a4d0c65e8c94614c125cf6c0bb476f88cd1ed4
 , WorkflowDeleteResponse =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowDeleteResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , WorkflowEventBinding =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowEventBinding.dhall sha256:18b86b27e86a2b344d73669af80e3fe391d2678e6d38bbc9b7258a613fae8824
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowEventBinding.dhall sha256:69042a3377146e94dc310a6f0e20160fc13edcee7e0db376e345a47caa1d50c1
 , WorkflowEventBindingSpec =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:26cb45c0fa0df5e8e0b6688bc05687b036feef4bd6979d09d875e09e1dde7551
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:550d48f18873056ddb7311f1e96347221f811acc21696c5a327c99b9a43f2dec
 , WorkflowLintRequest =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowLintRequest.dhall sha256:c947ea8b80addafcc7a00450f5f46a4ede7548a0ff7ba324673b8d35b4da539f
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowLintRequest.dhall sha256:7405c86b105d757fbd91fc689ea69da2f4ab93030030f7c8669ec25d80b7660a
 , WorkflowList =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowList.dhall sha256:38a7f47f5fe2565e8c8890882f3b810e1b9b54685c6036ee1e683b85359be0ea
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowList.dhall sha256:168b325d95ddd2d9e3f7e71844167b0b31cd42027baa30a6f5007df4f71d890d
 , WorkflowResubmitRequest =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowResubmitRequest.dhall sha256:4a43f2e380d0e92a5b4d759f574ea873555f622d34389aee0071ba74b5cc0b2a
 , WorkflowResumeRequest =
@@ -187,11 +195,11 @@
 , WorkflowSetRequest =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowSetRequest.dhall sha256:e4abb25e01063806d6f9e1875ad9ae15ce483b1e7ac32798d0201991c0a36b77
 , WorkflowSpec =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall sha256:05f66b76d369f93fcd030e319672ec65c508345e53de2041149884fcdc0ace8f
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall sha256:09d22c6fd0328807bf7ae20f57ba5a8232d03ecd75a0f4b3e36e6346ce21a485
 , WorkflowStatus =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall sha256:2594b56b5558f5268f78776b78e2bab4f3e5ee00e89a1526bf2e24517846036b
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall sha256:7f0be6e92f6272441fe47ebe607292a0b9a61801baada89a125c86573d8ff26f
 , WorkflowStep =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:d03c7685474ad68e976f836585bdbcb57687c386432b3bba865f44a9d5e5422c
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:8e17b73a5333da4b361e6f2af2b57f6deda86353a40addb00cdaf5c43dbe0510
 , WorkflowStopRequest =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowStopRequest.dhall sha256:edf67c95169abd9fd3b14372507908386d8264abd6b9ce14e43822b4f6d475bd
 , WorkflowSubmitRequest =
@@ -199,25 +207,27 @@
 , WorkflowSuspendRequest =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowSuspendRequest.dhall sha256:aac2bf127e8931850f04d76f4a3a0eb7deec3b4af46f018d4cd6560167e630df
 , WorkflowTemplate =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:a0ca32ba796ea63bc9f7142f7c5092a20fe85f3dbfb7e376c4ab1b2d2e809e8f
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:307aacd93a74c0f8be6f19c8ca5410baeacda3fe3d82849d74036d26420d934e
 , WorkflowTemplateCreateRequest =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateCreateRequest.dhall sha256:97cbb607e1b5b70041b4989db15d95cbbe4334ef5b1100f879d4ad899aa9f4d1
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateCreateRequest.dhall sha256:3cb9db66cacc7e79be2118f96e4407e37b06b5996378b3b467dba58f799fafcc
 , WorkflowTemplateDeleteResponse =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateDeleteResponse.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , WorkflowTemplateLintRequest =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateLintRequest.dhall sha256:97cbb607e1b5b70041b4989db15d95cbbe4334ef5b1100f879d4ad899aa9f4d1
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateLintRequest.dhall sha256:3cb9db66cacc7e79be2118f96e4407e37b06b5996378b3b467dba58f799fafcc
 , WorkflowTemplateList =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateList.dhall sha256:8b051da6be752c3eead496e79a7a5122cc93588957078315f5803289414fbd81
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateList.dhall sha256:c261e758ee4e1630ff306b07fb077df4085f23bf99b2a50d1f63f88827d3b764
 , WorkflowTemplateRef =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateRef.dhall sha256:bb0acc4a454df6b5d04a81672b1bd12d14153a6cb8cead1d6e127df40b1627a2
 , WorkflowTemplateSpec =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateSpec.dhall sha256:94d7dbac2ab2c0f9c2f2194c50103b0561e47889f4b9234cf81259139ab3e33d
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateSpec.dhall sha256:a0a422d4c7ee036bd35ea3f2a0ffde56fa40d2f0c999246200848ad409c18a82
 , WorkflowTemplateUpdateRequest =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateUpdateRequest.dhall sha256:b4e2cb98106368a9975ac9d84ae4fcb101df8c6cd92bf8dc240b3f5034cdff57
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowTemplateUpdateRequest.dhall sha256:a691a1966193bdac48511ffba53d2d43416fbe4dac75ce866540a9e61c74cbee
 , WorkflowTerminateRequest =
     ./types/io.argoproj.workflow.v1alpha1.WorkflowTerminateRequest.dhall sha256:aac2bf127e8931850f04d76f4a3a0eb7deec3b4af46f018d4cd6560167e630df
 , WorkflowWatchEvent =
-    ./types/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:f46c926cdaf367b4e2d0ae6e28a7c2f2b042d1ab0312482a35b4fd775089d8a1
+    ./types/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:b1509292b2fe5e94993e660380f063e84dc5063a95d8e8498847025c5f16e86b
+, ZipStrategy =
+    ./types/io.argoproj.workflow.v1alpha1.ZipStrategy.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , AWSElasticBlockStoreVolumeSource =
     ./types/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:fadc3f391adf37625bbb9c99a1a5ab56a9e1ed7466caf6aa9086ff23446e933b
 , Affinity =
@@ -243,7 +253,7 @@
 , ConfigMapVolumeSource =
     ./types/io.k8s.api.core.v1.ConfigMapVolumeSource.dhall sha256:ca17a0474608f919001f642901c11d3e60324a4245879c0bf540eca0ed22357d
 , Container =
-    ./types/io.k8s.api.core.v1.Container.dhall sha256:6ff92bb9a93d8b7cf2cb0212eeba616a2b61cb18e47dd89e9060dc0d93c14710
+    ./types/io.k8s.api.core.v1.Container.dhall sha256:be64bccf38a0fa872bc87c0f58682ab32eff8a7e267c205c73edaadc17b77add
 , ContainerPort =
     ./types/io.k8s.api.core.v1.ContainerPort.dhall sha256:4e77a1c7092e5ef28542406404e3f44234fa81dea270e09f468e79ba428a575c
 , DownwardAPIProjection =
@@ -261,7 +271,7 @@
 , EnvVarSource =
     ./types/io.k8s.api.core.v1.EnvVarSource.dhall sha256:1e75b5cf6e7babc3b4fe3c39de06ee0604186208454f414203140c9a8eb89b31
 , Event =
-    ./types/io.k8s.api.core.v1.Event.dhall sha256:9b78548623617d2532250c02177ac1f21e2a31b6bfc3e74b19f36abe7513a053
+    ./types/io.k8s.api.core.v1.Event.dhall sha256:0e0505078d2d21ea575b47f742234a387fe5faf85309dfc9c3762c78754b6690
 , EventSeries =
     ./types/io.k8s.api.core.v1.EventSeries.dhall sha256:01d9add81f56871966455aac7f54b889732380ddc245e9db4c2d85f17f0ef8a8
 , EventSource =
@@ -281,11 +291,11 @@
 , GlusterfsVolumeSource =
     ./types/io.k8s.api.core.v1.GlusterfsVolumeSource.dhall sha256:1436b3d8c0b9d5d832cfaf22d06c8c2cf09238e39a08a418ebe41c07ed7e87c6
 , HTTPGetAction =
-    ./types/io.k8s.api.core.v1.HTTPGetAction.dhall sha256:caa7c037aa58c694d6af00731d57e90a8950c2cf7325be8a969be858fc89924f
+    ./types/io.k8s.api.core.v1.HTTPGetAction.dhall sha256:400db3637922801bde075688d6e1082b713bf9ee881191fd207a788f306c8741
 , HTTPHeader =
     ./types/io.k8s.api.core.v1.HTTPHeader.dhall sha256:b8c3c0c4ceb36ba4e6674df5de20ad1d97e120b93b9ce9914a41d0036770dcc4
 , Handler =
-    ./types/io.k8s.api.core.v1.Handler.dhall sha256:5071e668c395d995f26aff1f0f1e69106195409dea6471da785d26fa4b8ad026
+    ./types/io.k8s.api.core.v1.Handler.dhall sha256:4084a3cea231f5174c6bbf34b30507107390ca5c7a4834b8a8b847493b1328f4
 , HostAlias =
     ./types/io.k8s.api.core.v1.HostAlias.dhall sha256:c7383b6bdc4212f9b4e47a91944e529a10bdfe8334143944e32bc56c4ccc2e0f
 , HostPathVolumeSource =
@@ -295,7 +305,7 @@
 , KeyToPath =
     ./types/io.k8s.api.core.v1.KeyToPath.dhall sha256:2428bb641aff90886b7bb34b92328df6ce59ad4e5c613952df6bd8f7fc73d3e2
 , Lifecycle =
-    ./types/io.k8s.api.core.v1.Lifecycle.dhall sha256:14a1a693c45dc6354ba99258ffaaaa2a3cdf66a6112401b41c3fd77be76fbd04
+    ./types/io.k8s.api.core.v1.Lifecycle.dhall sha256:b8e42132176f9f4d6bb32c40a43d29f8974992697507d3308c472102470f369a
 , LocalObjectReference =
     ./types/io.k8s.api.core.v1.LocalObjectReference.dhall sha256:30bd7e61dae821a9532f640611a37bbebac3dc2ba02b82298a5c295280f1501f
 , NFSVolumeSource =
@@ -313,7 +323,7 @@
 , ObjectReference =
     ./types/io.k8s.api.core.v1.ObjectReference.dhall sha256:301e65c686131086591aa0b6dd2617527427de49fcc87608a1f4b5f23fcb596c
 , PersistentVolumeClaim =
-    ./types/io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:83fe01027c7540bf700a16fbfcd66d25fad6787d3a70e98d094a2529fec55536
+    ./types/io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:c0b22f68b129647faeda39a8643944b09c19c9e6cab8daf33a8d1076511a2462
 , PersistentVolumeClaimCondition =
     ./types/io.k8s.api.core.v1.PersistentVolumeClaimCondition.dhall sha256:253ee70013b7ce83570cd49d6e14c029e6f652e7e70b1fac3b10213619d42f05
 , PersistentVolumeClaimSpec =
@@ -335,13 +345,13 @@
 , PodDNSConfigOption =
     ./types/io.k8s.api.core.v1.PodDNSConfigOption.dhall sha256:0e41a0c60acf00dde1bf36e8041b821569f01c80a029e46c49be4c77e33dc769
 , PodSecurityContext =
-    ./types/io.k8s.api.core.v1.PodSecurityContext.dhall sha256:78cf9250da422d4d0e3f92be14863fe1ce101a57ba3b5a09e61b6df1e244307a
+    ./types/io.k8s.api.core.v1.PodSecurityContext.dhall sha256:266714c96d31957e667882df9886f055d7be546c7296177636acbb291f4556ac
 , PortworxVolumeSource =
     ./types/io.k8s.api.core.v1.PortworxVolumeSource.dhall sha256:6c20c2018deb04b8276fbbb6bde16225beca3e2d4d40120729a3c854ae9a8483
 , PreferredSchedulingTerm =
     ./types/io.k8s.api.core.v1.PreferredSchedulingTerm.dhall sha256:90e8630891329b48e6a3e824d384e2c7bb0f3afa4123a06f378f10c04429a493
 , Probe =
-    ./types/io.k8s.api.core.v1.Probe.dhall sha256:c3eda1a20dafd00a0e706faa4bcb5f19ec8de10fc91e177bb97072339a406655
+    ./types/io.k8s.api.core.v1.Probe.dhall sha256:db5c0089ecfe3823a78d303bb7a4558ea502a1723db24707e7859f6fb79552dc
 , ProjectedVolumeSource =
     ./types/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:266ae1679620c829f7dc8d846b05e1873e93119b96dd4ce100d2d199f180a4b6
 , QuobyteVolumeSource =
@@ -365,7 +375,7 @@
 , SecretVolumeSource =
     ./types/io.k8s.api.core.v1.SecretVolumeSource.dhall sha256:e6c0e211be14b9d7339669546a704b14dfdf27fb0985921ee3378ac014db0831
 , SecurityContext =
-    ./types/io.k8s.api.core.v1.SecurityContext.dhall sha256:e6014cb04f68e69982bcfcabad26edaff7c4cc9af7de2f8ee1da2df9a46e1aac
+    ./types/io.k8s.api.core.v1.SecurityContext.dhall sha256:8bd4ab8a34dc6fc992b45243878944b477dba31811394c539ed5195af497f9d2
 , ServiceAccountTokenProjection =
     ./types/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:a34c4621eb6be8c65301ebe8b3858a930bbaba922f96d348a4155d42d854fe90
 , StorageOSVolumeSource =
@@ -373,7 +383,7 @@
 , Sysctl =
     ./types/io.k8s.api.core.v1.Sysctl.dhall sha256:b8c3c0c4ceb36ba4e6674df5de20ad1d97e120b93b9ce9914a41d0036770dcc4
 , TCPSocketAction =
-    ./types/io.k8s.api.core.v1.TCPSocketAction.dhall sha256:c97ec77fe8d5a5b2811a6c8e9dfefaf0d6d1693a171c82cb3cedbccfca72280e
+    ./types/io.k8s.api.core.v1.TCPSocketAction.dhall sha256:9cf14776317b3ca3fb88f900d8ac04e4c29909f8bb1ed58e82ddf6881c5a9430
 , Toleration =
     ./types/io.k8s.api.core.v1.Toleration.dhall sha256:311a6571242358d7b210631d506dc09e89671c2012bee5799c05f0a2c0024d71
 , TypedLocalObjectReference =
@@ -391,19 +401,15 @@
 , WeightedPodAffinityTerm =
     ./types/io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall sha256:d31adc713699f2f3a6b88f5ccdadfd250d458010b678ce12bf87c76075c2e4df
 , WindowsSecurityContextOptions =
-    ./types/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:df385f324feb093a1b967946b617d64f79bf52eca78953ceffdae4fd36729094
+    ./types/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:66cf1d4d7ca34b6481d9501c84f26fda8a01e58b1d09ab32c686902de830c408
 , PodDisruptionBudgetSpec =
-    ./types/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall sha256:f07f2c32e97e6c986514a645cbbbe5985f025debdda6f5ba3d4bd78c3d112b26
+    ./types/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall sha256:53f9b578d549b8848742adc71d9ef74f223052d720ca32c5f631ae6af07ae702
 , Quantity =
     ./types/io.k8s.apimachinery.pkg.api.resource.Quantity.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , CreateOptions =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall sha256:fd514bdfb38138870f516b7d20ed82893c5e471b5e64ba797cd16a5427f0001a
-, Fields =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Fields.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
-, Initializer =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer.dhall sha256:c9078ba25443af62d7179d609dd2b291fad7c2bfb66fbb35b6c79b439ea269aa
-, Initializers =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall sha256:34a1f61ce570145f7be6820d345c406d21bc0164b4ad20c57b4fa044cf193d80
+, FieldsV1 =
+    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.FieldsV1.dhall sha256:e73a2ec07449acffe1a4ba9cd261b845a8beb8f81fbc1415575639e99da668e6
 , LabelSelector =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.dhall sha256:42d27b2708fa26aff105ab514c1d2db674891c9f9cdee0850e0d647435aeddb7
 , LabelSelectorRequirement =
@@ -411,15 +417,13 @@
 , ListMeta =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta.dhall sha256:2c5cb1400b57320ba1035a003efe1fc85d9eee3d40d425d1987523d61415a6de
 , ManagedFieldsEntry =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:3f9b360fc8c3f2f6434d51fc7d8fe9628f0944e1a50714973588fbef8ccec59c
+    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:fa7bb7fd50692df5fa4f6aa689b2fdf4b9cbbbd6dcdd44cd59860fdf729e6ad5
 , MicroTime =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.MicroTime.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , ObjectMeta =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:b48645d2a085bc8b80e525eeada7ea84a9129c7a96d69ddf2f05f761e12a46d6
+    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:f9bd9acb6fbfb26b6484870f1d07fa85535bd6e55e790181e89dcc64d63e7bfe
 , OwnerReference =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference.dhall sha256:839b14d1d8b9fde26a7af1ae095b66f8844e1b150d7cae51ed68bf4b3e267fc8
-, Status =
-    ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Status.dhall sha256:7b52c95a2a7565fab6424602a0fdfd90c11aec08bbbb40e02c88372a7e0eb031
 , StatusCause =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause.dhall sha256:8231ef4ba2b02fb1dc8f91aa120008bffbe12d067b2a93a0897e7ef9bd9b8f4d
 , StatusDetails =
@@ -427,5 +431,5 @@
 , Time =
     ./types/io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , IntOrString =
-    ./types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
+    ./types/io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 }

@@ -5,13 +5,14 @@
 , children : Optional (List Text)
 , daemoned : Optional Bool
 , displayName : Optional Text
+, estimatedDuration : Optional Natural
 , finishedAt :
     Optional
       ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , hostNodeName : Optional Text
 , inputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , memoizationStatus :
     Optional
       ./io.argoproj.workflow.v1alpha1.MemoizationStatus.dhall sha256:c55fceccece76654504fca676bc1b231a338f0004cbdebd9de7ae38aeb7d760d
@@ -19,9 +20,10 @@
 , outboundNodes : Optional (List Text)
 , outputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:ea2ff8d52cf773c2acadfecc3f41e35927782874299e0834baa8797da5b72303
+      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:1a44476490d4a15ae350a67c9e2b2a8dd391c38d8e4d44ff64663aec7e13b2da
 , phase : Optional Text
 , podIP : Optional Text
+, progress : Optional Text
 , resourcesDuration : Optional (List { mapKey : Text, mapValue : Text })
 , startedAt :
     Optional

@@ -1,4 +1,5 @@
 { default = None Text
+, enum = None (List Text)
 , globalName = None Text
 , value = None Text
 , valueFrom =

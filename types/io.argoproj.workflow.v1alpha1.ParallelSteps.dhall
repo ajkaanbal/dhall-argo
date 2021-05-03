@@ -1,2 +1,2 @@
 List
-  ./io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:d03c7685474ad68e976f836585bdbcb57687c386432b3bba865f44a9d5e5422c
+  ./io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:8e17b73a5333da4b361e6f2af2b57f6deda86353a40addb00cdaf5c43dbe0510

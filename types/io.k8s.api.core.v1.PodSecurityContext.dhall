@@ -13,5 +13,5 @@
       )
 , windowsOptions :
     Optional
-      ./io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:df385f324feb093a1b967946b617d64f79bf52eca78953ceffdae4fd36729094
+      ./io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:66cf1d4d7ca34b6481d9501c84f26fda8a01e58b1d09ab32c686902de830c408
 }

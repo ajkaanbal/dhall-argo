@@ -13,7 +13,7 @@
       ./io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall sha256:0fc36b4183103803f2994bfb0103ffae98394027c8e0f6a345ce268854ada0d0
 , http :
     Optional
-      ./io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:3a9bace0a27989cfca6ba5c636da776fbdf3d27a57eb7ce6faa4a13fd84169d0
+      ./io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:673e077e05eba80f0e2e06b4c7a976d76b57d881a7c5c33a52080c5908a40a92
 , oss :
     Optional
       ./io.argoproj.workflow.v1alpha1.OSSArtifact.dhall sha256:c1488b81868e4e18ab9ffbbb3c9d424ca6e3c6f3b984d93a1d7ebfc72cf41d56

@@ -3,31 +3,31 @@
 , StreamError =
     ./defaults/grpc.gateway.runtime.StreamError.dhall sha256:e25c4c49e0ce89e926392aee78b93b912efaae40c044c81cdc8f5eb17a0ea5a7
 , ArchiveStrategy =
-    ./defaults/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:25b00238918607fece88927dcd30ddec3933d3229927cfe3b8bf26f9b747b04d
+    ./defaults/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:c75b4b1c461567db67ec4fb72ec7846a770ed0404c6276e5aa4cc7dbe4fd5cb6
 , Arguments =
-    ./defaults/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:71756889a66ec9c0181ead266454a7c8987b31fdabff9a03ffd597ae66cee31c
+    ./defaults/io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:afbe1ee2ec2f48d707df62558c20e8abb4ace24dd5af5760bdafb2b9ccadb9e5
 , Artifact =
-    ./defaults/io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:3a61747c29af50524c5234e8193fa27c34496f25dfcaab6f9163378acb652781
+    ./defaults/io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:a14794db10b297047426495e9856986799d3041467002b9379078dafba25ef84
 , ArtifactLocation =
-    ./defaults/io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:4b52ffe2bad63729a0bec3ce2070e4edc071b75ccf12fab71d25d6e444beffe9
+    ./defaults/io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:ed4565a68f26fb67e270bd3c353c1037d39a88e46947228fc4084a997688bd58
 , ArtifactRepositoryRef =
     ./defaults/io.argoproj.workflow.v1alpha1.ArtifactRepositoryRef.dhall sha256:965cd21c288a7b052ba24bf830cee8a32195a9a3795c2f81780e48f633dc8a21
 , ArtifactoryArtifact =
     ./defaults/io.argoproj.workflow.v1alpha1.ArtifactoryArtifact.dhall sha256:5d32ed61705cf76e7b5ad0a3a5025062c559b64dd5905d78d22c0f39c895ad8e
 , Backoff =
-    ./defaults/io.argoproj.workflow.v1alpha1.Backoff.dhall sha256:e47099dc803bbccf59c5e281362a67374fe735cbd31bb8a255f676d46a7e3ff9
+    ./defaults/io.argoproj.workflow.v1alpha1.Backoff.dhall sha256:9099146ea42609a6c4952810629456fa8c0c0e69c61120dde6f3db4d9e394663
 , Cache =
     ./defaults/io.argoproj.workflow.v1alpha1.Cache.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , ClusterWorkflowTemplate =
     ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplate.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , ClusterWorkflowTemplateCreateRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateCreateRequest.dhall sha256:58dca5cce4608a4433ae78ff99e2a63a1612386752e7612e95faf4bb159deb55
+    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateCreateRequest.dhall sha256:e1c357c6c05a45e00606d50a3d7b501bff2acf658c2d8560fc96e4aaecbaad0d
 , ClusterWorkflowTemplateLintRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateLintRequest.dhall sha256:58dca5cce4608a4433ae78ff99e2a63a1612386752e7612e95faf4bb159deb55
+    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateLintRequest.dhall sha256:e1c357c6c05a45e00606d50a3d7b501bff2acf658c2d8560fc96e4aaecbaad0d
 , ClusterWorkflowTemplateList =
     ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateList.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , ClusterWorkflowTemplateUpdateRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateUpdateRequest.dhall sha256:bdbde209e1ba7c86008f69da511b11bfd4a89c52189c8d7b9370d267c4395054
+    ./defaults/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateUpdateRequest.dhall sha256:d9731de70a87563e1caf606e779a1938d7257806ef51c147041220dec200f8ea
 , Condition =
     ./defaults/io.argoproj.workflow.v1alpha1.Condition.dhall sha256:b57c891abdb351f0be04a8bbf8132cd87582e36934bd0c5ebfefdbba868173d2
 , ContinueOn =
@@ -35,17 +35,21 @@
 , Counter =
     ./defaults/io.argoproj.workflow.v1alpha1.Counter.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , CreateCronWorkflowRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall sha256:3b52d0f2930ff1f8ed9b3cd4d0cbf2315bff1b4425bee3bdf95463612bdb4f93
+    ./defaults/io.argoproj.workflow.v1alpha1.CreateCronWorkflowRequest.dhall sha256:237d30163635efefa6bce999f5d8bae871ad3ecee450c01c47a751dbf3d9d451
 , CronWorkflow =
-    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:f05e646ece82f21454a90190120d2f6fa08bd6854f3189b3cf9d2ae20247a23c
+    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflow.dhall sha256:0cc330fed603ca8f4788d9df9423a570fb29c0ce67443f50ef764b94e38b7b1c
 , CronWorkflowList =
     ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowList.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+, CronWorkflowResumeRequest =
+    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowResumeRequest.dhall sha256:6bafa389265dc30f434cb983275140acb01a4e5406ff88837de788aa2bbc38cf
 , CronWorkflowSpec =
-    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:5a0ca4eb047c04b3c736727a40a322c93ce0ce03b1db63e071a5d08d7cdbac76
+    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:34e6e36a31157133f3f89bb6097a57e5ac3d683b2ccf02caa64da57f0dabb10c
 , CronWorkflowStatus =
-    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowStatus.dhall sha256:3b49c44ce9a4021df8c23f8f02a513ecbab938fad65c407de3275c7eb41cec02
+    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowStatus.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+, CronWorkflowSuspendRequest =
+    ./defaults/io.argoproj.workflow.v1alpha1.CronWorkflowSuspendRequest.dhall sha256:6bafa389265dc30f434cb983275140acb01a4e5406ff88837de788aa2bbc38cf
 , DAGTask =
-    ./defaults/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:eabc99106499953cfcb4aa3152915c1a0411b117ca1b9cedd7b2ec7e0787ecd4
+    ./defaults/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:1111eecc9e91739432e28fec74a4adafe1ed7a81cdf48415cefb186047dbfa1a
 , DAGTemplate =
     ./defaults/io.argoproj.workflow.v1alpha1.DAGTemplate.dhall sha256:c954f3ca15e7be74a0ff5961431a4c5b8a1012f5dcd4054f2805699d60b71fc3
 , ExecutorConfig =
@@ -55,25 +59,27 @@
 , Gauge =
     ./defaults/io.argoproj.workflow.v1alpha1.Gauge.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , GetUserInfoResponse =
-    ./defaults/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:0f62c447f1ada0809b93b6728c19b09b66edbea0fd4a173ae59ac3f010f0f239
+    ./defaults/io.argoproj.workflow.v1alpha1.GetUserInfoResponse.dhall sha256:8203275d55b5d2dd9a08b0467576f90ca6da47790ca9cea70b2b69848b58a5ee
 , GitArtifact =
     ./defaults/io.argoproj.workflow.v1alpha1.GitArtifact.dhall sha256:42ce100899e8d517673204c638be89a2ad7b4b5b0c6718c531553511bba38de5
 , HDFSArtifact =
     ./defaults/io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall sha256:343faa9e250acc5a92a88be11751b433f34b93860fd3e5c486063d0f962dc168
 , HTTPArtifact =
-    ./defaults/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+    ./defaults/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:2aa889f53b9f33470ea3428946cbed1aa2dfa114f4967662f9c241472f315fd8
+, Header =
+    ./defaults/io.argoproj.workflow.v1alpha1.Header.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , Histogram =
     ./defaults/io.argoproj.workflow.v1alpha1.Histogram.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , InfoResponse =
     ./defaults/io.argoproj.workflow.v1alpha1.InfoResponse.dhall sha256:11647dfcb75010fd5e00c0850df67dd9898e2000ffeac12c50cfbc974de8b891
 , Inputs =
-    ./defaults/io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:71756889a66ec9c0181ead266454a7c8987b31fdabff9a03ffd597ae66cee31c
+    ./defaults/io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:afbe1ee2ec2f48d707df62558c20e8abb4ace24dd5af5760bdafb2b9ccadb9e5
 , Item =
     ./defaults/io.argoproj.workflow.v1alpha1.Item.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , Link =
     ./defaults/io.argoproj.workflow.v1alpha1.Link.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , LintCronWorkflowRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:25d99b7ec2c5f03955c7da36dfebb6137d82f2ebea97f93ca8817c0a1f1a81ed
+    ./defaults/io.argoproj.workflow.v1alpha1.LintCronWorkflowRequest.dhall sha256:69b44a42fd5ff44c1c400cc0618c4e4b20457b9e21bca817c06e658a65156ed2
 , LogEntry =
     ./defaults/io.argoproj.workflow.v1alpha1.LogEntry.dhall sha256:66fd1cdab41e4862eb8d0fa52e5d404c13e99cd09470c195efbaf731ca757716
 , MemoizationStatus =
@@ -93,15 +99,15 @@
 , MutexStatus =
     ./defaults/io.argoproj.workflow.v1alpha1.MutexStatus.dhall sha256:17b9906c59c90bd5bbdcf44c61789074e7770389d723fec3729c35045707d429
 , NodeStatus =
-    ./defaults/io.argoproj.workflow.v1alpha1.NodeStatus.dhall sha256:16f9c9a233513b9e2ecfe61a3e59cc1e030cfe9fc83f1dfde776e67f210fa27a
+    ./defaults/io.argoproj.workflow.v1alpha1.NodeStatus.dhall sha256:f89e6050da10fcd8efe4a779580de184fb79299becfe34d9ac2e5175742f37ed
 , NodeSynchronizationStatus =
     ./defaults/io.argoproj.workflow.v1alpha1.NodeSynchronizationStatus.dhall sha256:2cb406f4dabba2ed2c4b4b33ac26006ffe57ec25f01761e8d9818354ca57a349
 , OSSArtifact =
     ./defaults/io.argoproj.workflow.v1alpha1.OSSArtifact.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , Outputs =
-    ./defaults/io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:df029eda81415f30de289d603214a72113251a362782f808adcecac2672ff737
+    ./defaults/io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:46ee99e4a3a813582658393faf01dcdbafbde13b9c4f304fb76ff2e036d3e1c0
 , Parameter =
-    ./defaults/io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:dc20ece4828ee39d174ab2c3f321d20c8b40a651cb40d4e684abc0dc5d54d52a
+    ./defaults/io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:5e607a2fcec1e32f5bfdc41de62e86e880bb6485adbd01224b4e3c9814f3067e
 , PodGC =
     ./defaults/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:244533b7fc17b5983a9a0ab106e59cbb7fa578e3a06632557f3a0c383614ed35
 , Prometheus =
@@ -111,11 +117,11 @@
 , ResourceTemplate =
     ./defaults/io.argoproj.workflow.v1alpha1.ResourceTemplate.dhall sha256:da17081eb2ae6438f5525580cac852dcad91cbae08c7e8ca7278e2effa16baee
 , RetryStrategy =
-    ./defaults/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:789429199f389b293544a13b948d19d2f5e5d339b2ca1d4abe0635dd4945fcf5
+    ./defaults/io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:2ec152899f7e4a7773542a2b4edb00a1ebd2bf1631613d44ff3c0d2a0372d64f
 , S3Artifact =
     ./defaults/io.argoproj.workflow.v1alpha1.S3Artifact.dhall sha256:c3e8cd34ce992e23e2684fb2ea7ef991f1a767ab81916a71860643d57974607b
 , ScriptTemplate =
-    ./defaults/io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:6d914e5bcad8b8dfb724fbf904b2e2a34b2426e07c8e23782eefc06cd51e4033
+    ./defaults/io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:c5a2abaa878d0c72be4d76b4a916a0e881aa4fd0200407243281fb25085b02c0
 , SemaphoreHolding =
     ./defaults/io.argoproj.workflow.v1alpha1.SemaphoreHolding.dhall sha256:a18e9deb00026797874730db6a8f95ec92660c1e69069ef22c681bbbad376d3d
 , SemaphoreRef =
@@ -123,9 +129,9 @@
 , SemaphoreStatus =
     ./defaults/io.argoproj.workflow.v1alpha1.SemaphoreStatus.dhall sha256:18d712741d1e200288ace2d63d88ac98ee1c610f1b0697a6a552ac1c355ff6f8
 , Sequence =
-    ./defaults/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:5c8c30501ea2fb46e9f36754f72f3c26bf263bb1d6e987e77c74c3750a75ee27
+    ./defaults/io.argoproj.workflow.v1alpha1.Sequence.dhall sha256:e89c73327f41a482a14b764fd3cb1b922f3c28d48967c6f146126b27660b371a
 , Submit =
-    ./defaults/io.argoproj.workflow.v1alpha1.Submit.dhall sha256:894908463d84a5b481614b6efa6002f59891b1361df3f3384af31f143b4e4c53
+    ./defaults/io.argoproj.workflow.v1alpha1.Submit.dhall sha256:7dd11eb8dece9ede6cdcd75e0d23048cc0a9fd0490eec1ffdd024b0f1c79c58b
 , SubmitOpts =
     ./defaults/io.argoproj.workflow.v1alpha1.SubmitOpts.dhall sha256:543cd55dbcf9c5311552d9e1ac4287bfafdaee869495a72ec48312ae56615a72
 , SuspendTemplate =
@@ -139,27 +145,29 @@
 , TarStrategy =
     ./defaults/io.argoproj.workflow.v1alpha1.TarStrategy.dhall sha256:64255c80e89bccdcaf0df53febf99253d97a34393da48250ea9085ec64f78ca7
 , Template =
-    ./defaults/io.argoproj.workflow.v1alpha1.Template.dhall sha256:6bcf2cc82a9b6f0e40ef8a8f2072dfe56f9b05043f576f99798030acfe291b43
+    ./defaults/io.argoproj.workflow.v1alpha1.Template.dhall sha256:ecac52721d97c3192e0d4e5f550fba268c47d1509c52c188ca0cd6044a1e8718
 , TemplateRef =
     ./defaults/io.argoproj.workflow.v1alpha1.TemplateRef.dhall sha256:1475a2c6642021f6f386a1bebf7834a1dd5504f998b1559c806ccc43c467bfbe
 , UpdateCronWorkflowRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.UpdateCronWorkflowRequest.dhall sha256:b00bace29caf341e5f13c8eb514538bdad08597e6a17f373614f25e2d6d484da
+    ./defaults/io.argoproj.workflow.v1alpha1.UpdateCronWorkflowRequest.dhall sha256:53bfa5f55a3451426c2f1687bfe2a3c151ea4f6ffae2489a3149cdbbc6081504
 , UserContainer =
-    ./defaults/io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:908115ae31979870d200aa6a2dcb01fc4bd54ec838e1d23333ba54a6c5de8b6a
+    ./defaults/io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:1fba6e1b0bd5875537d23d3d9fac215bdc861ad186c5a8eb87ef021b3d5b6ecf
 , ValueFrom =
     ./defaults/io.argoproj.workflow.v1alpha1.ValueFrom.dhall sha256:ebf348233a543bb9626904e889d49732b62a8645c0d9fd4846a6aeadeb54b553
 , Version =
     ./defaults/io.argoproj.workflow.v1alpha1.Version.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
+, VolumeClaimGC =
+    ./defaults/io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall sha256:244533b7fc17b5983a9a0ab106e59cbb7fa578e3a06632557f3a0c383614ed35
 , Workflow =
-    ./defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:b05655b8beda979926791a0cde0101c5508a9000655ae4393a1acd0a232f0e49
+    ./defaults/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:37da3969d361905e503dfe0708b9a68e2523acde1bf3ec925e65564a9e4b83e2
 , WorkflowCreateRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall sha256:590300b4b96cb04537971d2047b98dee0aab0617c5ce60a03f1c9f1629d8ddbe
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowCreateRequest.dhall sha256:365e41ee7be12160447963f7c03561d2246dd025213b5114a373a51e53912f8d
 , WorkflowEventBinding =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowEventBinding.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , WorkflowEventBindingSpec =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:a116c709282adc757ebc0e007226e1a737cabee4d1aa731a19ba0dd5e2a0b54b
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:f6ba5b9718d855bf113caf4fb0e867dcf61a9a342f8e48dae724c0e3fba82c2b
 , WorkflowLintRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowLintRequest.dhall sha256:2c8654cea82fca6f7eda0eff7da4a173baf57f36f993753ad99807b098dc14a1
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowLintRequest.dhall sha256:2ea32e5aa14f2afc7fe93c61f666aee79f7c500fc35fc04157457a4bd47ca41e
 , WorkflowList =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowList.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , WorkflowResubmitRequest =
@@ -171,11 +179,11 @@
 , WorkflowSetRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowSetRequest.dhall sha256:1f8e93c17b391630ffb84beeaf4b5c13ede93e264bb87c3bf713211ce1a560c7
 , WorkflowSpec =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall sha256:9a0a3f4cb0fd2a5037c498d150cf617ec1ef82ce59374d8e4b522467bc518f8d
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowSpec.dhall sha256:c449ee9e6039dc8017f1bfa9a923e673f856988e334370834c9f1560a39883d2
 , WorkflowStatus =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall sha256:7d63c3364c296d764817dd39b4fbbeb78f8157e3a914ae96fb671a09c2396a48
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStatus.dhall sha256:87ac15719c2b8804352596e1f71a2d332b96c5986f90b156063e2637e65b4aec
 , WorkflowStep =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:906e21457ee90d15f6aaeb4fcb780a7fcf5bf0fae60433df4b6e3e9ee929f65b
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStep.dhall sha256:02ca8c390a3f1e5cdd77b8bebcafbe70c7f680a7c157c045ef1b83b630c6e6bf
 , WorkflowStopRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowStopRequest.dhall sha256:eb055d204e08f92717525ff4d45a05521b946cb183d59c792ae09e17b79ca85b
 , WorkflowSubmitRequest =
@@ -185,21 +193,21 @@
 , WorkflowTemplate =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:a9f0d7ae0c41431a08b4aea256c45a6d7acde8a574c82bb5f9f0663705a085e4
 , WorkflowTemplateCreateRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateCreateRequest.dhall sha256:92f27745b4ef7cd4404b39e13afdb4974c040a5d9cf402330958de2dbb999a7b
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateCreateRequest.dhall sha256:aea0d7104f3df6dd52478cce45b27a418505bdbb85cd3c4add91ebdeba3c6227
 , WorkflowTemplateLintRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateLintRequest.dhall sha256:92f27745b4ef7cd4404b39e13afdb4974c040a5d9cf402330958de2dbb999a7b
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateLintRequest.dhall sha256:aea0d7104f3df6dd52478cce45b27a418505bdbb85cd3c4add91ebdeba3c6227
 , WorkflowTemplateList =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateList.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , WorkflowTemplateRef =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateRef.dhall sha256:0e59f097e21a29249e31526ee32befa46e604e8a02f22081cf505bc9ea3142e9
 , WorkflowTemplateSpec =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateSpec.dhall sha256:3c08dfac9dd9282b4db0d90c55789eed309c8e38faf9691b1046b6029a7b2dc4
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateSpec.dhall sha256:c82e8453546ce9f66e4415ca6e152ad4f0be5e650a60a8b5c820dd8395c18834
 , WorkflowTemplateUpdateRequest =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateUpdateRequest.dhall sha256:31aa3e9b453748692c7ae1c268d7fcbbcfe9da54f3d782d4e4815678a01dca0d
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTemplateUpdateRequest.dhall sha256:985c27c201793238010b74f6927e3367747dcfe6c63214f2bf4904097566b18b
 , WorkflowTerminateRequest =
     ./defaults/io.argoproj.workflow.v1alpha1.WorkflowTerminateRequest.dhall sha256:6bafa389265dc30f434cb983275140acb01a4e5406ff88837de788aa2bbc38cf
 , WorkflowWatchEvent =
-    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:f9d19b8ab8fea54e9c5520d9e8b6f9eecb9da0c4be04c19bf18bf38a28c57e39
+    ./defaults/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:3ef27341e6cf04deb15688f3809e8e4e45c45d65303433b944e10d7af2ed2cbe
 , AWSElasticBlockStoreVolumeSource =
     ./defaults/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:615e35b270fce43209e478f061aa33a4511051080566a27fdabd5f27805d547d
 , Affinity =
@@ -225,7 +233,7 @@
 , ConfigMapVolumeSource =
     ./defaults/io.k8s.api.core.v1.ConfigMapVolumeSource.dhall sha256:4b3673c838f04dad6368a01e1695dec155a0874590dea632b93c42fdc28e5e21
 , Container =
-    ./defaults/io.k8s.api.core.v1.Container.dhall sha256:bb8c6c21596e00996998c162963eeecf48c076ad9cb3447d18580f1b7f6d2d70
+    ./defaults/io.k8s.api.core.v1.Container.dhall sha256:c5a2abaa878d0c72be4d76b4a916a0e881aa4fd0200407243281fb25085b02c0
 , ContainerPort =
     ./defaults/io.k8s.api.core.v1.ContainerPort.dhall sha256:c033cb6b3a0c181d2c7a26d7e1b13d3144552ea9a7bf58d8f03fd1671394d6cc
 , DownwardAPIProjection =
@@ -267,7 +275,7 @@
 , HTTPHeader =
     ./defaults/io.k8s.api.core.v1.HTTPHeader.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , Handler =
-    ./defaults/io.k8s.api.core.v1.Handler.dhall sha256:3828344eb269897f4b8065595326ae734ea81011f1857008f4c219bf156b78e5
+    ./defaults/io.k8s.api.core.v1.Handler.dhall sha256:6bf648973e501739827cffc009f711a2bc1db2222f7316721655fed401b2363b
 , HostAlias =
     ./defaults/io.k8s.api.core.v1.HostAlias.dhall sha256:b65f8274a9f048f56d85fd5ba68e0917eaadc98b279d8d880b5728e9646f07c9
 , HostPathVolumeSource =
@@ -277,7 +285,7 @@
 , KeyToPath =
     ./defaults/io.k8s.api.core.v1.KeyToPath.dhall sha256:06a424890a609e0d2e3a3bbc64db2a563cabdea47d2bcaed8c1d8deaacffa73b
 , Lifecycle =
-    ./defaults/io.k8s.api.core.v1.Lifecycle.dhall sha256:6c1fef8a31240cf149c4892deb69d5634accd9e39a1edc6cad0748553ac3b82e
+    ./defaults/io.k8s.api.core.v1.Lifecycle.dhall sha256:053e86c94716d4a89a95c064301daea40cb2c55647cbe9d85cc6d63eb3e67176
 , LocalObjectReference =
     ./defaults/io.k8s.api.core.v1.LocalObjectReference.dhall sha256:018c7b82f7b41ceb9a8d33e0dbd47f7917f486331b6e7a9d0e9573b5f0ff3613
 , NFSVolumeSource =
@@ -317,13 +325,13 @@
 , PodDNSConfigOption =
     ./defaults/io.k8s.api.core.v1.PodDNSConfigOption.dhall sha256:b738c3aceed53d603e62521aef6770e70a8ff38982fbd62eb9620833dbfb774b
 , PodSecurityContext =
-    ./defaults/io.k8s.api.core.v1.PodSecurityContext.dhall sha256:36ca1732080d9c28ab13d2c10f13b375b1d14901f517cfe5e59c7be3e0748ff5
+    ./defaults/io.k8s.api.core.v1.PodSecurityContext.dhall sha256:c32b616ca49572df9ab06b2865755fbefb9f556b5fdde8350b7a100b6af22eaa
 , PortworxVolumeSource =
     ./defaults/io.k8s.api.core.v1.PortworxVolumeSource.dhall sha256:5d8e73366d928941a81088f57aaf538a8c3a8d171086228dcefe3aa8084e6a0a
 , PreferredSchedulingTerm =
     ./defaults/io.k8s.api.core.v1.PreferredSchedulingTerm.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , Probe =
-    ./defaults/io.k8s.api.core.v1.Probe.dhall sha256:947d0b2f6b633c659f1d8b4e6bf28d02a2ab69ab5eb3738ecfe2cf165da7b6b3
+    ./defaults/io.k8s.api.core.v1.Probe.dhall sha256:48ac33009f5541a172291891d5bb1a711217a3c30fe60ec2a5eb44193633be97
 , ProjectedVolumeSource =
     ./defaults/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:2b8754bfb17b21478ec8c77b8a1664d2d2bf76d9d5cf4a020ce5912d5ad17a97
 , QuobyteVolumeSource =
@@ -347,7 +355,7 @@
 , SecretVolumeSource =
     ./defaults/io.k8s.api.core.v1.SecretVolumeSource.dhall sha256:831a19d1b747abe261d836cdeef43d375c6457a98e5cbd2ae0247bfdf2e92c43
 , SecurityContext =
-    ./defaults/io.k8s.api.core.v1.SecurityContext.dhall sha256:e7e5cf8a68d5a03be0e4c424cda4f2086eafee869f68d0602666c8e2c482e4f0
+    ./defaults/io.k8s.api.core.v1.SecurityContext.dhall sha256:4acd5d2b8bbd923cc342464d61b29bd4ea6d3d780405945f0eee52ec77185c43
 , ServiceAccountTokenProjection =
     ./defaults/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:8e0f8a3126dcf4178add5cb1352f244a4eed4e5ebc43719c775d9c5e12263b50
 , StorageOSVolumeSource =
@@ -373,15 +381,11 @@
 , WeightedPodAffinityTerm =
     ./defaults/io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 , WindowsSecurityContextOptions =
-    ./defaults/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:0fed2504bf260a97e2ab0f6d1aad29dc82e758d7db843da4e93b7bbe2d7b3b84
+    ./defaults/io.k8s.api.core.v1.WindowsSecurityContextOptions.dhall sha256:deb80986909b50e526d160833bfec1c847b3fff2016e5055896daab7f186fea7
 , PodDisruptionBudgetSpec =
-    ./defaults/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall sha256:d44415665e9fef590632be61170614a430f61f9a6c3e41909bb805a408166dd3
+    ./defaults/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall sha256:ce2700ebeffdcaa0308a4c760db5e596edb3b472180a93b581a61fa0d64a49d2
 , CreateOptions =
     ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.CreateOptions.dhall sha256:f861d5a3229690d7fbff57f5c89598c0561cb61f0713a4659f01bd552172edd9
-, Initializer =
-    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.Initializer.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
-, Initializers =
-    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.Initializers.dhall sha256:3361101df8f1b6b5c28c61c90d99f68acfdf7b19a96f7291ad6a3139c078f9bf
 , LabelSelector =
     ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.dhall sha256:b565a778488d19a0fa69c851f158d191d7b65445f7e56a4486c5578f22c6d2cb
 , LabelSelectorRequirement =
@@ -389,13 +393,11 @@
 , ListMeta =
     ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta.dhall sha256:c496e32e535ac3351ce89383cf86cb5f92048396cf99aab7c32f9f34e4fb939e
 , ManagedFieldsEntry =
-    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:651fd37ab18aaea4b68df6017f33145dc7a17783982ae38a57716c850bf80442
+    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.dhall sha256:d876c6115cb0c70bde6c054d2798215b34ce8f68cdff15b0b7a0d5c195ad71c3
 , ObjectMeta =
-    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:112cc4ca05e1271c4c76e7aadc747373abbd30293bdfb130aee1611bd3dace27
+    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:40be041e9478b7849ac81258d23354d9e42387d10064d88b90931afc117bcaeb
 , OwnerReference =
     ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference.dhall sha256:f70106741b413c2392e0e02bf4231e46d425c4490419f312a00798131e23c5c6
-, Status =
-    ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.Status.dhall sha256:39b5c9f222cc3e8d65fc91dba69973dacf3680eb39b22f0b75e04b29e31930c0
 , StatusCause =
     ./defaults/io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause.dhall sha256:a4aacae516d651f61fb8dc5c2f3fc2be64604f211f68f378a1166c7136cb5c16
 , StatusDetails =

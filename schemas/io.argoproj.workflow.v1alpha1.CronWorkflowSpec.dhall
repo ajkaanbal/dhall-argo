@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:0857050485eae97090d1847ae63738b25c2e3206f30abf8f54daaa317cb03fe9
+    ./../types/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:d96b922cfd43686124f6f355724e679f510c62030f1eb6ddba32608b9cdb6449
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:5a0ca4eb047c04b3c736727a40a322c93ce0ce03b1db63e071a5d08d7cdbac76
+    ./../defaults/io.argoproj.workflow.v1alpha1.CronWorkflowSpec.dhall sha256:34e6e36a31157133f3f89bb6097a57e5ac3d683b2ccf02caa64da57f0dabb10c
 }

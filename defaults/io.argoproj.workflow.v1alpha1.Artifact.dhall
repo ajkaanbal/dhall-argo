@@ -1,6 +1,6 @@
 { archive =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:9c154fdb6b4274f14867459fd0cbdcda4acf634b597101318974e305c415faa1
+      ./../types/io.argoproj.workflow.v1alpha1.ArchiveStrategy.dhall sha256:5f7451bc9978197cc5424df41e53edb9a23dc839143f37bf2dfade27f888838a
 , archiveLogs = None Bool
 , artifactory =
     None
@@ -18,7 +18,7 @@
       ./../types/io.argoproj.workflow.v1alpha1.HDFSArtifact.dhall sha256:0fc36b4183103803f2994bfb0103ffae98394027c8e0f6a345ce268854ada0d0
 , http =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:3a9bace0a27989cfca6ba5c636da776fbdf3d27a57eb7ce6faa4a13fd84169d0
+      ./../types/io.argoproj.workflow.v1alpha1.HTTPArtifact.dhall sha256:673e077e05eba80f0e2e06b4c7a976d76b57d881a7c5c33a52080c5908a40a92
 , mode = None Natural
 , optional = None Bool
 , oss =
@@ -28,6 +28,7 @@
 , raw =
     None
       ./../types/io.argoproj.workflow.v1alpha1.RawArtifact.dhall sha256:6e4f7d8d87887940f6652276a7ff18f02e63158697d3405735f6bddba1bf996b
+, recurseMode = None Bool
 , s3 =
     None
       ./../types/io.argoproj.workflow.v1alpha1.S3Artifact.dhall sha256:a22f92adb83050817482740e6402f1f94bde4ed9ab1503fa60a9a2f195264422

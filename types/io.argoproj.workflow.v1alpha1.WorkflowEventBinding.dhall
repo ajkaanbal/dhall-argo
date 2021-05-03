@@ -1,7 +1,7 @@
 { apiVersion : Text
 , kind : Text
 , metadata :
-    ./io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:b48645d2a085bc8b80e525eeada7ea84a9129c7a96d69ddf2f05f761e12a46d6
+    ./io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.dhall sha256:f9bd9acb6fbfb26b6484870f1d07fa85535bd6e55e790181e89dcc64d63e7bfe
 , spec :
-    ./io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:26cb45c0fa0df5e8e0b6688bc05687b036feef4bd6979d09d875e09e1dde7551
+    ./io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec.dhall sha256:550d48f18873056ddb7311f1e96347221f811acc21696c5a327c99b9a43f2dec
 }

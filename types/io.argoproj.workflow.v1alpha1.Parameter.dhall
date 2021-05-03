@@ -1,5 +1,6 @@
 { name : Text
 , default : Optional Text
+, enum : Optional (List Text)
 , globalName : Optional Text
 , value : Optional Text
 , valueFrom :

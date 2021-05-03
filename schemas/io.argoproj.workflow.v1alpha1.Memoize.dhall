@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:f38505832b8be3c5aea8fb17788e8116a0d1a5014302a5521a92d2722cd56e60
+    ./../types/io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:92f9bd234c8406b58452c0ef99d6586729c3004f6b1a6ab3c387e9c1e55ead27
 , default =
     ./../defaults/io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:9bb9dcb5bf6f795291686f59383bcd01c8e79b87fc3fb63351d46dea100ac51b
 }

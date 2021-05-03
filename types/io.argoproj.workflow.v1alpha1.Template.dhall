@@ -4,24 +4,24 @@
 , name : Text
 , activeDeadlineSeconds :
     Optional
-      ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:04a91539533a52bf0bf114690cceee43b656915bd83c2731ce26ad31f516d47f
+      ./io.k8s.apimachinery.pkg.util.intstr.IntOrString.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , affinity :
     Optional
       ./io.k8s.api.core.v1.Affinity.dhall sha256:6221fdff507444ae05790364baa0be18eca18f7a8ba826672c66702a5d12e256
 , archiveLocation :
     Optional
-      ./io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:c9609f214aa7805c5aa6672c239adb7e5ddb060e3b8af87894198c3182796054
+      ./io.argoproj.workflow.v1alpha1.ArtifactLocation.dhall sha256:737efe3e5684bfa906538c4a766b1e5b47eb98d4f57fd9e2a6aa54ef63b2530d
 , arguments :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+      ./io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , automountServiceAccountToken : Optional Bool
 , container :
     Optional
-      ./io.k8s.api.core.v1.Container.dhall sha256:6ff92bb9a93d8b7cf2cb0212eeba616a2b61cb18e47dd89e9060dc0d93c14710
+      ./io.k8s.api.core.v1.Container.dhall sha256:be64bccf38a0fa872bc87c0f58682ab32eff8a7e267c205c73edaadc17b77add
 , daemon : Optional Bool
 , dag :
     Optional
-      ./io.argoproj.workflow.v1alpha1.DAGTemplate.dhall sha256:518f310c91cf87a41e483513e282376b3bcac74ea732c359d1afe923b08ba80e
+      ./io.argoproj.workflow.v1alpha1.DAGTemplate.dhall sha256:8e8b865bea0a7bd3b005412044b4ab1c53989f28c50d6e57981de2b65380c358
 , executor :
     Optional
       ./io.argoproj.workflow.v1alpha1.ExecutorConfig.dhall sha256:f21ccffa28bc12f59ea63a5f11aff530537fa234082334ec67fad1fa7fd2d9d0
@@ -33,21 +33,21 @@
 , initContainers :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:ebac2919e765d0fb8c2071ecc4bd79dc3a0ba7eaec48bbf2ce9298609821294c
+          ./io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:b10761b8c053f81c59de330b086ec332ffd1f47dca1370c87859c0c55cec9f93
       )
 , inputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:71dc5d3ee4c60b33e5156b59097682af2abbed6baa81a7e4255e6ba7b1b1bac7
+      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
 , memoize :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:f38505832b8be3c5aea8fb17788e8116a0d1a5014302a5521a92d2722cd56e60
+      ./io.argoproj.workflow.v1alpha1.Memoize.dhall sha256:92f9bd234c8406b58452c0ef99d6586729c3004f6b1a6ab3c387e9c1e55ead27
 , metrics :
     Optional
       ./io.argoproj.workflow.v1alpha1.Metrics.dhall sha256:f939bf6487bae49cf649d222426e9c1c2f678fd5bad0c2561f9b530e5b88d54f
 , nodeSelector : Optional (List { mapKey : Text, mapValue : Text })
 , outputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:ea2ff8d52cf773c2acadfecc3f41e35927782874299e0834baa8797da5b72303
+      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:1a44476490d4a15ae350a67c9e2b2a8dd391c38d8e4d44ff64663aec7e13b2da
 , parallelism : Optional Natural
 , podSpecPatch : Optional Text
 , priority : Optional Natural
@@ -55,27 +55,26 @@
 , resource :
     Optional
       ./io.argoproj.workflow.v1alpha1.ResourceTemplate.dhall sha256:87d27a224772654690215c2336e7f374898fec04db17034d047261ef63e8a2f0
-, resubmitPendingPods : Optional Bool
 , retryStrategy :
     Optional
-      ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:45ae34f2b2a13606addd7fd7fb963a0ec11f934eb8789d4337b1e44255b3fa67
+      ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:4b2c57ab289a240492880839815c6fe3998040ed0705016715445aa5ec863568
 , schedulerName : Optional Text
 , script :
     Optional
-      ./io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:f35b3f8ef10a584be615aee8d66823d0ad687d1a8beb1deffbb7f95e816d0118
+      ./io.argoproj.workflow.v1alpha1.ScriptTemplate.dhall sha256:5cd9405f5ce9a156006dedf6ad904766ab7b75f23542e7f8bc552d9631ddb10f
 , securityContext :
     Optional
-      ./io.k8s.api.core.v1.PodSecurityContext.dhall sha256:78cf9250da422d4d0e3f92be14863fe1ce101a57ba3b5a09e61b6df1e244307a
+      ./io.k8s.api.core.v1.PodSecurityContext.dhall sha256:266714c96d31957e667882df9886f055d7be546c7296177636acbb291f4556ac
 , serviceAccountName : Optional Text
 , sidecars :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:ebac2919e765d0fb8c2071ecc4bd79dc3a0ba7eaec48bbf2ce9298609821294c
+          ./io.argoproj.workflow.v1alpha1.UserContainer.dhall sha256:b10761b8c053f81c59de330b086ec332ffd1f47dca1370c87859c0c55cec9f93
       )
 , steps :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.ParallelSteps.dhall sha256:2da0323fa5c2bc620e848db9f9a4e7e3f55b0e940e73ff93575a0c26e723e7a8
+          ./io.argoproj.workflow.v1alpha1.ParallelSteps.dhall sha256:e71b146a39c01b0295dfcd5ced2798c97b385a8d652398d6408f13cbe436173c
       )
 , suspend :
     Optional

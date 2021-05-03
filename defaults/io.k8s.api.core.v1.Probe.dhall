@@ -4,12 +4,12 @@
 , failureThreshold = None Natural
 , httpGet =
     None
-      ./../types/io.k8s.api.core.v1.HTTPGetAction.dhall sha256:caa7c037aa58c694d6af00731d57e90a8950c2cf7325be8a969be858fc89924f
+      ./../types/io.k8s.api.core.v1.HTTPGetAction.dhall sha256:400db3637922801bde075688d6e1082b713bf9ee881191fd207a788f306c8741
 , initialDelaySeconds = None Natural
 , periodSeconds = None Natural
 , successThreshold = None Natural
 , tcpSocket =
     None
-      ./../types/io.k8s.api.core.v1.TCPSocketAction.dhall sha256:c97ec77fe8d5a5b2811a6c8e9dfefaf0d6d1693a171c82cb3cedbccfca72280e
+      ./../types/io.k8s.api.core.v1.TCPSocketAction.dhall sha256:9cf14776317b3ca3fb88f900d8ac04e4c29909f8bb1ed58e82ddf6881c5a9430
 , timeoutSeconds = None Natural
 }
