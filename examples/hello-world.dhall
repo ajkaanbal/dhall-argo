@@ -1,5 +1,5 @@
 let Argo =
-      ../package.dhall sha256:a6676ff4c914c26013473e9b275e69d61f0fcf445bd75017879865d824f3f5fa
+      ../package.dhall sha256:d5f3a6b04b77e69e11c02ef26d0e2c85534728fb6b10a3c0fc8b745c0fce4796
 
 let templates = ./argo-templates.dhall
 
