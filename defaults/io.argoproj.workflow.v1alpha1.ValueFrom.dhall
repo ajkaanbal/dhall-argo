@@ -1,5 +1,6 @@
 { default = None Text
 , event = None Text
+, expression = None Text
 , jqFilter = None Text
 , jsonPath = None Text
 , parameter = None Text

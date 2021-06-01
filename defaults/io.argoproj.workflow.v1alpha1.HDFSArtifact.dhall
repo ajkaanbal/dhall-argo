@@ -1,4 +1,5 @@
-{ force = None Bool
+{ addresses = None (List Text)
+, force = None Bool
 , hdfsUser = None Text
 , krbCCacheSecret =
     None

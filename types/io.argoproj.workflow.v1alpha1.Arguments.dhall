@@ -1,11 +1,11 @@
 { artifacts :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:ae4e812e08dbad22b8d5ef6c5edb6c39bf55a072adf2c59dfb90a3c5b4ec5c34
+          ./io.argoproj.workflow.v1alpha1.Artifact.dhall sha256:df7829005a9dd5ba559e4d0fb5e362918af21181fb1c974150961ababa0a3852
       )
 , parameters :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:ae9b99117026cd6987c4436d2821e288d87f7287f94844ca75725ec35184d9c3
+          ./io.argoproj.workflow.v1alpha1.Parameter.dhall sha256:3bc0f9c8bbcfd53a98a85418ac39bb21d033ecd100112b25c60dbfd35e6f4925
       )
 }

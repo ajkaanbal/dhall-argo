@@ -1,5 +1,5 @@
 { namespace = None Text
 , workflow =
     None
-      ./../types/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:e7227601f46ffacd16ec13b34747e58063a3b69a357e5a36e5d99dd531e3c485
+      ./../types/io.argoproj.workflow.v1alpha1.Workflow.dhall sha256:d7d2d6975d37948e1488d3adb992e01a321b1dbb7c7a03505c8e14fc415aecc5
 }

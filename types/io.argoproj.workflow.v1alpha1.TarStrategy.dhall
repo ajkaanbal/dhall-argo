@@ -1,1 +1,1 @@
-{ compressionLevel : Optional Natural }
+{ compressionLevel : Optional Integer }

@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.PodAntiAffinity.dhall sha256:820f3019e862a32dd7b9c222e21ccfeed1ad8da94441be7358be74ccf6be97f5
+    ./../types/io.k8s.api.core.v1.PodAntiAffinity.dhall sha256:ab414b3fdcf7183c8951b1c198a71b68b9070fc78c9fa6fc8c687c40dcceefe2
 , default =
-    ./../defaults/io.k8s.api.core.v1.PodAntiAffinity.dhall sha256:2153887fc521acd8f36013c059b5b4a01d3e3449e0fea51f5b43614babd43059
+    ./../defaults/io.k8s.api.core.v1.PodAntiAffinity.dhall sha256:2d2cfb3087e334d1d1af25ae9819c895c1573bbe581b2b3cbe048f1ed5b5ee0a
 }

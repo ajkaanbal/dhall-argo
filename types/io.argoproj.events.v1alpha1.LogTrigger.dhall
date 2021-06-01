@@ -1,0 +1,1 @@
+{ intervalSeconds : Optional Text }

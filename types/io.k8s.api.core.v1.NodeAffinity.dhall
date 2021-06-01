@@ -1,7 +1,7 @@
 { preferredDuringSchedulingIgnoredDuringExecution :
     Optional
       ( List
-          ./io.k8s.api.core.v1.PreferredSchedulingTerm.dhall sha256:90e8630891329b48e6a3e824d384e2c7bb0f3afa4123a06f378f10c04429a493
+          ./io.k8s.api.core.v1.PreferredSchedulingTerm.dhall sha256:4aa5b67951214069baa52568ccfcb75b8da5806565549d46a5ff4f759336a2ef
       )
 , requiredDuringSchedulingIgnoredDuringExecution :
     Optional

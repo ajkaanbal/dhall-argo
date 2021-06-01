@@ -1,5 +1,5 @@
-{ addresses : List Text
-, path : Text
+{ path : Text
+, addresses : Optional (List Text)
 , force : Optional Bool
 , hdfsUser : Optional Text
 , krbCCacheSecret :

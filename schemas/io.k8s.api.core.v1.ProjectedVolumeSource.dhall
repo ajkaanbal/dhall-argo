@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:266ae1679620c829f7dc8d846b05e1873e93119b96dd4ce100d2d199f180a4b6
+    ./../types/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:784dd9deb427ebd4cd066ab17461abb4b9e8b1cd2e0a1a5c64f045f1aed1a177
 , default =
-    ./../defaults/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:2b8754bfb17b21478ec8c77b8a1664d2d2bf76d9d5cf4a020ce5912d5ad17a97
+    ./../defaults/io.k8s.api.core.v1.ProjectedVolumeSource.dhall sha256:3dfbd3d1d8809a60d8b57d4172fc07c964770e709c860d2752146dbf09a8534b
 }

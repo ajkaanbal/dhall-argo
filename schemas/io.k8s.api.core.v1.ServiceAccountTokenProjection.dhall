@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:a34c4621eb6be8c65301ebe8b3858a930bbaba922f96d348a4155d42d854fe90
+    ./../types/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:d32a188bff9db51a710355929fc16ebde41617a218c0fa75b1782cc8603b51d7
 , default =
-    ./../defaults/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:8e0f8a3126dcf4178add5cb1352f244a4eed4e5ebc43719c775d9c5e12263b50
+    ./../defaults/io.k8s.api.core.v1.ServiceAccountTokenProjection.dhall sha256:bed057545d4436f402bebea4b6b3f46c0f476426540bd8273e613cc78f394ee1
 }

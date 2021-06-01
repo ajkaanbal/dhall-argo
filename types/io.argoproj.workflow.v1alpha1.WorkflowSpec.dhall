@@ -1,10 +1,10 @@
-{ activeDeadlineSeconds : Optional Natural
+{ activeDeadlineSeconds : Optional Integer
 , affinity :
     Optional
-      ./io.k8s.api.core.v1.Affinity.dhall sha256:6221fdff507444ae05790364baa0be18eca18f7a8ba826672c66702a5d12e256
+      ./io.k8s.api.core.v1.Affinity.dhall sha256:bd97be75b0c9c603b8be60ab063f5ddfcc9088db0dde7d0cddb8ff227cdde90a
 , arguments :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
+      ./io.argoproj.workflow.v1alpha1.Arguments.dhall sha256:86bed7db5088e88d06415c299d33fc41e11f7cb627273f56f288f39f7c626cca
 , artifactRepositoryRef :
     Optional
       ./io.argoproj.workflow.v1alpha1.ArtifactRepositoryRef.dhall sha256:4f0cc648b24c9231e6073099614c0c015e211033ff6df852b5d936fb9db1e68a
@@ -33,56 +33,61 @@
       ./io.argoproj.workflow.v1alpha1.Metrics.dhall sha256:f939bf6487bae49cf649d222426e9c1c2f678fd5bad0c2561f9b530e5b88d54f
 , nodeSelector : Optional (List { mapKey : Text, mapValue : Text })
 , onExit : Optional Text
-, parallelism : Optional Natural
+, parallelism : Optional Integer
 , podDisruptionBudget :
     Optional
       ./io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec.dhall sha256:53f9b578d549b8848742adc71d9ef74f223052d720ca32c5f631ae6af07ae702
 , podGC :
     Optional
-      ./io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:1e05604931635e666adcb37b618bc56647418bd55ed3120180fa441e3b5f3981
-, podPriority : Optional Natural
+      ./io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:6894cbbafa1f4c09910e5eda2bf3ebf0379df18d042c0197e9a45ca9eb615729
+, podMetadata :
+    Optional
+      ./io.argoproj.workflow.v1alpha1.Metadata.dhall sha256:f23d88affc672057700db0ed7c1181a6f1aba982d02b8fd42468eafd7351d611
+, podPriority : Optional Integer
 , podPriorityClassName : Optional Text
 , podSpecPatch : Optional Text
-, priority : Optional Natural
+, priority : Optional Integer
 , retryStrategy :
     Optional
-      ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:4b2c57ab289a240492880839815c6fe3998040ed0705016715445aa5ec863568
+      ./io.argoproj.workflow.v1alpha1.RetryStrategy.dhall sha256:5fa987c83e54374e4127feb0c3bcde46f1eadaef2a21bbfa8133cf74972e6ad8
 , schedulerName : Optional Text
 , securityContext :
     Optional
-      ./io.k8s.api.core.v1.PodSecurityContext.dhall sha256:266714c96d31957e667882df9886f055d7be546c7296177636acbb291f4556ac
+      ./io.k8s.api.core.v1.PodSecurityContext.dhall sha256:21162241ee126d6d09198260a25f4231e1ab78a51d2bdc0dbe0f3f5b4fd71611
 , serviceAccountName : Optional Text
 , shutdown : Optional Text
 , suspend : Optional Bool
 , synchronization :
     Optional
       ./io.argoproj.workflow.v1alpha1.Synchronization.dhall sha256:5e58ba2bbfba8a8e3123a0de6e097d94c4ad30fefb7cc2e9e6c6c84781fbe19f
+, templateDefaults :
+    Optional
+      ./io.argoproj.workflow.v1alpha1.Template.dhall sha256:863b49d9cbcb218dfd6f76ade5a388b6056bcacaefc00c4a5d455244c5332632
 , templates :
     Optional
       ( List
-          ./io.argoproj.workflow.v1alpha1.Template.dhall sha256:273e5f67d02e1ddc445dec499eb6c9e31ecc4edbe2dbeae19be3ca229a60c6be
+          ./io.argoproj.workflow.v1alpha1.Template.dhall sha256:863b49d9cbcb218dfd6f76ade5a388b6056bcacaefc00c4a5d455244c5332632
       )
 , tolerations :
     Optional
       ( List
-          ./io.k8s.api.core.v1.Toleration.dhall sha256:311a6571242358d7b210631d506dc09e89671c2012bee5799c05f0a2c0024d71
+          ./io.k8s.api.core.v1.Toleration.dhall sha256:dd6fffae0dd33d31a761843efdd0cebf2673efd4e9be417d17472fddd3055e42
       )
-, ttlSecondsAfterFinished : Optional Natural
 , ttlStrategy :
     Optional
-      ./io.argoproj.workflow.v1alpha1.TTLStrategy.dhall sha256:07e39a8136adbefca3a43217fa9281216dffc98428fb4cd022d6f125efc7f531
+      ./io.argoproj.workflow.v1alpha1.TTLStrategy.dhall sha256:a6b1b364af43b87658f453cb8bd62a4cf272d90aa4878d44e56c6ba5cbb8c053
 , volumeClaimGC :
     Optional
       ./io.argoproj.workflow.v1alpha1.VolumeClaimGC.dhall sha256:1e05604931635e666adcb37b618bc56647418bd55ed3120180fa441e3b5f3981
 , volumeClaimTemplates :
     Optional
       ( List
-          ./io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:c0b22f68b129647faeda39a8643944b09c19c9e6cab8daf33a8d1076511a2462
+          ./io.k8s.api.core.v1.PersistentVolumeClaim.dhall sha256:5eafe8f610760d342943d44bce5333875f051c38a381016e9aa7d4c86d8a0684
       )
 , volumes :
     Optional
       ( List
-          ./io.k8s.api.core.v1.Volume.dhall sha256:534bc08f5a965b6f4283150bec676c7eebbb18f5953c21a827dc1097aa1c0178
+          ./io.k8s.api.core.v1.Volume.dhall sha256:aa2b222238a29017213aabfe42fa65f41b8d1301bc48e4a06ff1cc0cc3be7149
       )
 , workflowTemplateRef :
     Optional

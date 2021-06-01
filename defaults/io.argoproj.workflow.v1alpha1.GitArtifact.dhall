@@ -1,4 +1,5 @@
-{ depth = None Natural
+{ depth = None Integer
+, disableSubmodules = None Bool
 , fetch = None (List Text)
 , insecureIgnoreHostKey = None Bool
 , passwordSecret =

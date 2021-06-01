@@ -5,14 +5,14 @@
 , children : Optional (List Text)
 , daemoned : Optional Bool
 , displayName : Optional Text
-, estimatedDuration : Optional Natural
+, estimatedDuration : Optional Integer
 , finishedAt :
     Optional
       ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , hostNodeName : Optional Text
 , inputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:8bba1fbd5e4c1b8d43ebc95dd5e8140863e778cdc4df49448a21a8d6e743ec36
+      ./io.argoproj.workflow.v1alpha1.Inputs.dhall sha256:86bed7db5088e88d06415c299d33fc41e11f7cb627273f56f288f39f7c626cca
 , memoizationStatus :
     Optional
       ./io.argoproj.workflow.v1alpha1.MemoizationStatus.dhall sha256:c55fceccece76654504fca676bc1b231a338f0004cbdebd9de7ae38aeb7d760d
@@ -20,7 +20,7 @@
 , outboundNodes : Optional (List Text)
 , outputs :
     Optional
-      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:1a44476490d4a15ae350a67c9e2b2a8dd391c38d8e4d44ff64663aec7e13b2da
+      ./io.argoproj.workflow.v1alpha1.Outputs.dhall sha256:dc55842ef79f40d2d90bb7745a997a74abafbe117a761dd313605e2be41eb375
 , phase : Optional Text
 , podIP : Optional Text
 , progress : Optional Text
@@ -28,14 +28,12 @@
 , startedAt :
     Optional
       ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
-, storedTemplateID : Optional Text
 , synchronizationStatus :
     Optional
       ./io.argoproj.workflow.v1alpha1.NodeSynchronizationStatus.dhall sha256:827484323872051abf9bf30049f0ee543865b419daa0c01a74314975a2c4a05e
 , templateName : Optional Text
 , templateRef :
     Optional
-      ./io.argoproj.workflow.v1alpha1.TemplateRef.dhall sha256:7e9968539a9c7cf27a0ecb46588d8a02fb606f7ad65fb6d413f2f1044c3701c5
+      ./io.argoproj.workflow.v1alpha1.TemplateRef.dhall sha256:46ba2e086d80e541a22564b1a2199dfee1ff8dfb1f1c15806c270ee52ff9ac77
 , templateScope : Optional Text
-, workflowTemplateName : Optional Text
 }

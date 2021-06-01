@@ -1,5 +1,1 @@
-{ clusterScope = None Bool
-, name = None Text
-, runtimeResolution = None Bool
-, template = None Text
-}
+{ clusterScope = None Bool, name = None Text, template = None Text }

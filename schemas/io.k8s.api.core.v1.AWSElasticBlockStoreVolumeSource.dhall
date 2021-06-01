@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:fadc3f391adf37625bbb9c99a1a5ab56a9e1ed7466caf6aa9086ff23446e933b
+    ./../types/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:dd419bff88452f43a652e4ae1dbf56cef32ee5a0e1852cd853004716bbe06f86
 , default =
-    ./../defaults/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:615e35b270fce43209e478f061aa33a4511051080566a27fdabd5f27805d547d
+    ./../defaults/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource.dhall sha256:aaae305ca38be27610a6d021dd26d229dd109ff5e9b53dc68d94b33afe75de1f
 }

@@ -6,6 +6,6 @@
 , group = None Text
 , kind = None Text
 , name = None Text
-, retryAfterSeconds = None Natural
+, retryAfterSeconds = None Integer
 , uid = None Text
 }

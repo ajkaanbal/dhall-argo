@@ -1,4 +1,4 @@
-{ secondsAfterCompletion = None Natural
-, secondsAfterFailure = None Natural
-, secondsAfterSuccess = None Natural
+{ secondsAfterCompletion = None Integer
+, secondsAfterFailure = None Integer
+, secondsAfterSuccess = None Integer
 }

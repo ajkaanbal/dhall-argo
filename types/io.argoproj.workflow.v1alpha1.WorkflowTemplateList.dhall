@@ -1,8 +1,8 @@
 { apiVersion : Text
 , items :
     List
-      ./io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:307aacd93a74c0f8be6f19c8ca5410baeacda3fe3d82849d74036d26420d934e
+      ./io.argoproj.workflow.v1alpha1.WorkflowTemplate.dhall sha256:679984409b5fb27201b8e68837ba6c16152e8a1df3f998684606fd1dd5cba7d8
 , kind : Text
 , metadata :
-    ./io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta.dhall sha256:2c5cb1400b57320ba1035a003efe1fc85d9eee3d40d425d1987523d61415a6de
+    ./io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta.dhall sha256:6eff47294815ae850d3e11a619c955c8024c8d0702cd70777922b02d587653bc
 }

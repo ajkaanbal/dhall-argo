@@ -1,5 +1,5 @@
 { Type =
-    ./../types/grpc.gateway.runtime.StreamError.dhall sha256:4a5fba5e8bcf242ad3bd6f969fd8e76ff5cedcd386c8356680615c6e78045fc0
+    ./../types/grpc.gateway.runtime.StreamError.dhall sha256:fc94ed8eba74670a2160a4c05acca3d83dec9c1537333e07e5268a0fcce10429
 , default =
-    ./../defaults/grpc.gateway.runtime.StreamError.dhall sha256:e25c4c49e0ce89e926392aee78b93b912efaae40c044c81cdc8f5eb17a0ea5a7
+    ./../defaults/grpc.gateway.runtime.StreamError.dhall sha256:b9ab508638d27800ace3ac3f27b47ad7dc316803fbb5cfa2c25fc198369154cf
 }

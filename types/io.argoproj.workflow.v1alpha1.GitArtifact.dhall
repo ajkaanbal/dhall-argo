@@ -1,5 +1,6 @@
 { repo : Text
-, depth : Optional Natural
+, depth : Optional Integer
+, disableSubmodules : Optional Bool
 , fetch : Optional (List Text)
 , insecureIgnoreHostKey : Optional Bool
 , passwordSecret :

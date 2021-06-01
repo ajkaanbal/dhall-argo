@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.k8s.api.core.v1.Affinity.dhall sha256:6221fdff507444ae05790364baa0be18eca18f7a8ba826672c66702a5d12e256
+    ./../types/io.k8s.api.core.v1.Affinity.dhall sha256:bd97be75b0c9c603b8be60ab063f5ddfcc9088db0dde7d0cddb8ff227cdde90a
 , default =
-    ./../defaults/io.k8s.api.core.v1.Affinity.dhall sha256:fc2eb56f85292dffbb7e72096b4bfd7985841f1cfdeb09b6a4771f1f4b97e986
+    ./../defaults/io.k8s.api.core.v1.Affinity.dhall sha256:ce64a12a60e3c5e5fd565d64a0dc2a8c7a33e044264950f477f07f66e2e00e5a
 }

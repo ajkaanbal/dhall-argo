@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:525926c771461c24cd92048b993e51509ee859d993e300500755a9455fb7e9a6
+    ./../types/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:d359f05390622ad3351639c928076f82e7ee1ec25bbba44f3c148b41147743bb
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:1111eecc9e91739432e28fec74a4adafe1ed7a81cdf48415cefb186047dbfa1a
+    ./../defaults/io.argoproj.workflow.v1alpha1.DAGTask.dhall sha256:fff5f45eca021282fd4ac16f9590cad772a2036e3ac5d43c29c7957f9faa0d4a
 }

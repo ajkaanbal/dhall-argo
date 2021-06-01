@@ -1,7 +1,7 @@
 { preferredDuringSchedulingIgnoredDuringExecution :
     Optional
       ( List
-          ./io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall sha256:d31adc713699f2f3a6b88f5ccdadfd250d458010b678ce12bf87c76075c2e4df
+          ./io.k8s.api.core.v1.WeightedPodAffinityTerm.dhall sha256:7392cefa48b3c140c81445547938ccd09889142e0686c086f853799122d41f04
       )
 , requiredDuringSchedulingIgnoredDuringExecution :
     Optional

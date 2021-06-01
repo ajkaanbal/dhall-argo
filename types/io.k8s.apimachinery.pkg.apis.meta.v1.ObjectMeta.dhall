@@ -3,13 +3,13 @@
 , creationTimestamp :
     Optional
       ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
-, deletionGracePeriodSeconds : Optional Natural
+, deletionGracePeriodSeconds : Optional Integer
 , deletionTimestamp :
     Optional
       ./io.k8s.apimachinery.pkg.apis.meta.v1.Time.dhall sha256:b9c75dfe7b1571f8b606d709a1103d67f86f16e04e63aa0de9856cd00904d4a2
 , finalizers : Optional (List Text)
 , generateName : Optional Text
-, generation : Optional Natural
+, generation : Optional Integer
 , labels : Optional (List { mapKey : Text, mapValue : Text })
 , managedFields :
     Optional

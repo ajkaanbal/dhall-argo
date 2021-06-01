@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:1e05604931635e666adcb37b618bc56647418bd55ed3120180fa441e3b5f3981
+    ./../types/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:6894cbbafa1f4c09910e5eda2bf3ebf0379df18d042c0197e9a45ca9eb615729
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:244533b7fc17b5983a9a0ab106e59cbb7fa578e3a06632557f3a0c383614ed35
+    ./../defaults/io.argoproj.workflow.v1alpha1.PodGC.dhall sha256:21808407fe7f3541249ed6f2c9dec2240c0dd9e938bc8523e562b05fa92d8215
 }

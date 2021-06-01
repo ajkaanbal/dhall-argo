@@ -1,5 +1,5 @@
 { Type =
-    ./../types/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:b1509292b2fe5e94993e660380f063e84dc5063a95d8e8498847025c5f16e86b
+    ./../types/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:1088421f68893fcd46e274c8d24e3dcc15723b5f891cfd2639fb47d02c81d799
 , default =
-    ./../defaults/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:3ef27341e6cf04deb15688f3809e8e4e45c45d65303433b944e10d7af2ed2cbe
+    ./../defaults/io.argoproj.workflow.v1alpha1.WorkflowWatchEvent.dhall sha256:3e94deb238cfc62a797bef0295e48d7a0fe2fe9524c0d519f2c21a74d88d2953
 }

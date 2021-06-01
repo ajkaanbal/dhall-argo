@@ -1,4 +1,4 @@
-{ secondsAfterCompletion : Optional Natural
-, secondsAfterFailure : Optional Natural
-, secondsAfterSuccess : Optional Natural
+{ secondsAfterCompletion : Optional Integer
+, secondsAfterFailure : Optional Integer
+, secondsAfterSuccess : Optional Integer
 }

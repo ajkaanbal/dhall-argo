@@ -1,8 +1,8 @@
-{ defaultMode : Optional Natural
+{ defaultMode : Optional Integer
 , items :
     Optional
       ( List
-          ./io.k8s.api.core.v1.KeyToPath.dhall sha256:2428bb641aff90886b7bb34b92328df6ce59ad4e5c613952df6bd8f7fc73d3e2
+          ./io.k8s.api.core.v1.KeyToPath.dhall sha256:11ca55b330a7d0ddd0030c6b830a885753df9234b4acbd4eae7c201f0c217c81
       )
 , name : Optional Text
 , optional : Optional Bool

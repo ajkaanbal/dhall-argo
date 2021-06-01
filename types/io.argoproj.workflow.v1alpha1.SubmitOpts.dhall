@@ -1,4 +1,5 @@
-{ dryRun : Optional Bool
+{ annotations : Optional Text
+, dryRun : Optional Bool
 , entryPoint : Optional Text
 , generateName : Optional Text
 , labels : Optional Text

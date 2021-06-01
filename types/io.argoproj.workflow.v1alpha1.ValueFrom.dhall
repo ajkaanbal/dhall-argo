@@ -1,5 +1,6 @@
 { default : Optional Text
 , event : Optional Text
+, expression : Optional Text
 , jqFilter : Optional Text
 , jsonPath : Optional Text
 , parameter : Optional Text

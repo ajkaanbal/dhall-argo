@@ -1,4 +1,5 @@
-{ dryRun = None Bool
+{ annotations = None Text
+, dryRun = None Bool
 , entryPoint = None Text
 , generateName = None Text
 , labels = None Text
